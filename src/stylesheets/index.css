@@ -1,0 +1,451 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body{
+  background: aliceblue;
+}
+
+#linkrandom{
+  margin-top: 143px;
+  display: block;
+}
+
+a {
+  font-weight: 500;
+  color: black;
+  text-decoration: inherit;
+}
+
+.naveg a {
+  position: relative;
+  transition: 1s;
+}
+
+.naveg li:hover a:after{
+  width: 100%;
+}
+
+.naveg a:after {
+  content: '';
+  position: absolute;
+  background-color: #000000;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+.naveg li:hover a{
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.naveg {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  width: 68%;
+}
+
+.nav {
+  margin: 12px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  transition: 0.5s;
+}
+
+#logo svg {
+  width: 130px;
+  transition: ease-in-out 0.5s;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+#logo:hover svg {
+  width: 145px;
+}
+
+#logo:hover, .naveg li:hover{
+  cursor: pointer;
+}
+
+#logo a {
+  position: relative;
+}
+
+#logo a:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  transition: 1s;
+  left: 61px;
+  bottom: 7px;
+  border: solid 1px transparent;
+  border-radius: 100%;
+}
+
+#logo:hover a:after{
+  width: 224px;
+  height: 224px;
+  left: -37px;
+  border: solid 1px black;
+  bottom: -63px;
+  border-radius: 100%;
+}
+
+#logo {
+  height: 24px;
+}
+
+.burger{
+  display: none;
+}
+
+.xarxes svg {
+  width: 40px;
+  fill: transparent;
+}
+
+.icon{
+  fill:black;
+}
+
+.circle {
+  stroke: black;
+}
+
+.xarxes {
+  display: flex;
+  padding: 0;
+  margin: auto;
+  width: 80%;
+  margin-top: 137px;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.xarxes a {
+  position: relative;
+}
+
+.social:after{
+  content: '';
+  position: absolute;
+  background-color: #000000;
+  height: 0;
+  width: 0;
+  left: 19.7px;
+  bottom: 23px;
+  transition: 0.5s;
+  border-radius: 100%;
+}
+.social:hover:after {
+  width: 40px;
+  height: 40px;
+  z-index: -1;
+  background: black;
+  left: 0;
+  bottom: 3px;
+}
+
+.xarxes a:hover .icon {
+  fill: #ffffff;
+}
+
+.xarxes li {
+  list-style-type: none;
+  height: 40px;
+}
+
+.xarxes ul {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.xarxes #mail a:hover #line {
+  width: 60px;
+}
+
+#mail a {
+  display: inline-block;
+}
+
+.xarxes #line {
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: middle;
+  transition: 1s;
+}
+
+#credits {
+  width: 100%;
+  margin-top: 25px;
+  border-top: 1px solid black;
+}
+
+#credits div {
+  font-size: 13px;
+  width: 80%;
+  margin: 20px auto 24px;
+}
+
+#credits a {
+  transition: 0.5s;
+}
+
+#credits a:hover {
+color:#34d7f1;
+}
+
+.burger{
+  cursor: pointer;
+}
+
+.burger div {
+  height: 2px;
+  width: 36px;
+  background: black;
+  margin: 0 0 0 auto;
+  transition: 0.7s;
+}
+
+.burger div:nth-child(2), .burger div:nth-child(3) {
+  margin-top: 6px;
+}
+
+.burger div:nth-child(2) {
+  width: 29px;
+  opacity: 100%;
+}
+
+.burger:hover div:nth-child(2) {
+  width: 36px;
+}
+
+.burger div:nth-child(1).active{
+  transform: translateY(8px) rotate(30deg)
+}
+
+.burger div:nth-child(2).active{
+  opacity: 0;
+}
+
+.burger div:nth-child(3).active{
+  transform: translateY(-8px) rotate(-30deg)
+}
+
+/* Responsive................................. */
+
+@media only screen and (max-width : 1000px) {
+
+  .nav, .xarxes, #credits div {
+    width: 97%;
+  }
+}
+
+@media only screen and (max-width : 640px) {
+
+/* Menú R................................. */
+body.active {
+  overflow: hidden;
+}
+
+.nav {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  top: 0;
+  flex-direction: column;
+  gap: 45px;
+  justify-content: flex-start;
+  height: 0;
+  transition: background-color 1s, height 0s 1s;
+}
+
+.nav.active {
+  background-color: #b2c3f5;
+  height: 100%;
+  transition: background-color 1s;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.container {
+  margin-top: 81px;
+}
+
+#top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  margin: 28px 2% 0;
+}
+
+#logo {
+  position: relative;
+}
+#logo .active {
+  width: 170px;
+}
+
+.burger{
+  display: block;
+}
+
+.naveg{
+  font-size: 34px;
+  line-height: 58px;
+  position: relative;
+  flex-direction: column;
+  left: -100%;
+  margin: 0;
+  transition: height 0s 1s;
+}
+
+.naveg.active {
+  left: 5%;
+}
+
+.select{
+  position: relative;
+  padding: 0;
+  font-size: 21px;
+  width: 46px;
+  height: 35px;
+  left: -100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1s 0.5s;
+}
+.select svg {
+  width: 13px;
+}
+
+.select.active {
+  visibility: visible;
+  opacity: 100%;
+  transition-delay: 0.5s;
+  left: 5%;
+  margin-bottom: 77px;
+}
+
+#hidden ul li {
+  height: 51px;
+  background: none;
+  display: inline-block;
+  height: 29px;
+  margin-right: 37px;
+  text-align: left;
+}
+#hidden button {
+  font-size: 19px;
+}
+#hidden ul {
+  margin-top: 16px;
+  width: 140px;
+}
+
+#hidden ul li:nth-child(2) {
+  transition-delay: 0s;
+}
+
+#mail a {
+  font-size: 19px;
+}
+
+/* .xarxes-r{
+  position: absolute;
+  flex-direction: column-reverse;
+  bottom: 2%;
+  right: 2%;
+  gap: 19px;
+} */
+
+.naveg li {
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, visibility 0s ease-in-out;
+  pointer-events: none;
+}
+
+.naveg li.active {
+  visibility: visible;
+  opacity: 100%;
+  pointer-events: all;
+}
+
+.naveg li.active:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.naveg li.active:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.naveg li.active:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.naveg li.active:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+#logo a:after {
+  display: none;
+}
+
+#logo:hover svg {
+  width: 130px;
+}
+#logo .active:hover {
+  width: 170px;
+}
+.xarxes{
+  flex-direction: column-reverse;
+  gap: 23px;
+  align-items: flex-start;
+  margin-top: 70px;
+}
+.xarxes #line {
+  display: none;
+}
+
+}
+
+
+@media only screen and (max-width : 300px) {
+  .naveg{
+    font-size: 29px;
+    line-height: 157%;
+  }
+
+  .naveg li.active {
+    font-size: 8vmin;
+    height: 90%;
+  }
+  #logo .active {
+    width: 130px;
+}
+
+}
