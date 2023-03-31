@@ -9,7 +9,7 @@ export const [Collections, Collections_es, Collections_en] = arr.map(() => {
   
   return ({ind, lng, indc}) => {
 
-    console.log(ind.ca.col_t[0][1].length)
+    // console.log(ind.ca.col_t[0][1].length)
     let path = ind[lng].nav[2].toLowerCase()
     return (
     <>
@@ -22,7 +22,7 @@ export const [Collections, Collections_es, Collections_en] = arr.map(() => {
             <Link to={`${ind[lng].nav[0]}/${path}/${col_p}`}> 
               <div className='col-container'>
                 <h2 className='col-title'>{ind[lng].col[i]}</h2>
-                <img src={`/public/col/${n[0]}/${n[1][0]}.jpg` }alt={ind[lng].col[i]}></img> 
+                <img src={`/col/${n[0]}/${n[1][0]}.jpg` }alt={ind[lng].col[i]}></img> 
                 <span className='col-data'>{`x ${ind.ca.col_t[i][1].length}`}</span>
               </div>
             </Link>

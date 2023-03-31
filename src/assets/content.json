@@ -56,15 +56,15 @@
 
       [["Acrílic i tinta sobre tela"],["Acrílic i tinta sobre tela"],["Tinta i grafit sobre tela"], ["Acrílic i tinta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"]]
     ],
-
-    "prj_d" : {
-      "intro" : "Els projectes són, juntament amb l’obra pictòrica, l’altre gran part de la meva activitat, on em puc permetre anar més enllà del marc.",
-      "Vi_suals" : [ "Vi_suals és un projecte impulsat per l'Ajuntament de Manresa i la DO del Pla del Bages. Uneix la cultura vitivinícola i la creació artística.","Aquest darrer any, el cep n'ha estat el protagonista. M'encarrego del disseny artístic (imatge de l'event, llibrets informatius...)."," El treball el realitzo sobre paper, emprant tintes i llapis. Les obres es poden veure en diferents exposicions." ],
-      "the-booc" :[ "Col·laboració especial per un oli exclusiu extret d’olives autòctones de la regió del Bages (varietat Corbella i Verdal)."," El propòsit va ser elaborar dibuixos que han sigut utilitzats per les etiquetes de les ampolles i part de l’interior de l’embalatge final." ],
-      "sobrerroca" : [ "Col·laboració amb el dissenyador d’interiors Josep M. Roma per pintar el sostre de la nova llibreria Sobrerroca (Manresa, Barcelona)."," També ha inclòs pintar part del mostrador i decorar l’interior amb dibuixos fets sobre fusta i reproduccions dels mateixos dibuixos a les parets i columnes de la botiga." ],
-      "dpeus" : "Projecte iniciat pel dissenyador d’interiors Josep M. Roma per crear pintures per decorar la nova oficina del centre podològic Dpeus (Manresa, Barcelona). Això va comportar crear el rètol, el disseny interior (portes i finestres) i la imatge corporativa.",
-      "calidoscopi" : [ "Encàrrec del mural conmemoratiu del 50è aniversari de l’escola Joviat (Manresa, Barcelona).", "L’encàrrec va ser basat en obra lliure. No hi havia motiu, però si un condicionant: cada un dels 250 treballadors de l’escola havia d’endur-se una part del mural. Conceptualment, vaig treballar sobre una obra que amb la suma de “moltes parts” composesin un “tot” . El resultat van ser 250 quadres de 10 x 10 cm treballats sobre fusta i enmarcats individualment com a peça única." ]
-    },
+    "prj_i" : [ 14, 13, 8, 7, 24 ],
+    "prj_d" : [
+      "Els projectes són, juntament amb l’obra pictòrica, l’altre gran part de la meva activitat, on em puc permetre anar més enllà del marc.",
+      [ "Vi_suals és un projecte impulsat per l'Ajuntament de Manresa i la DO del Pla del Bages. Uneix la cultura vitivinícola i la creació artística.","Aquest darrer any, el cep n'ha estat el protagonista. M'encarrego del disseny artístic (imatge de l'event, llibrets informatius...)."," El treball el realitzo sobre paper, emprant tintes i llapis. Les obres es poden veure en diferents exposicions." ],
+      [ "Col·laboració especial per un oli exclusiu extret d’olives autòctones de la regió del Bages (varietat Corbella i Verdal)."," El propòsit va ser elaborar dibuixos que han sigut utilitzats per les etiquetes de les ampolles i part de l’interior de l’embalatge final." ],
+      [ "Col·laboració amb el dissenyador d’interiors Josep M. Roma per pintar el sostre de la nova llibreria Sobrerroca (Manresa, Barcelona)."," També ha inclòs pintar part del mostrador i decorar l’interior amb dibuixos fets sobre fusta i reproduccions dels mateixos dibuixos a les parets i columnes de la botiga." ],
+      [ "Projecte iniciat pel dissenyador d’interiors Josep M. Roma per crear pintures per decorar la nova oficina del centre podològic Dpeus (Manresa, Barcelona). Això va comportar crear el rètol, el disseny interior (portes i finestres) i la imatge corporativa."],
+      [ "Encàrrec del mural conmemoratiu del 50è aniversari de l’escola Joviat (Manresa, Barcelona).", "L’encàrrec va ser basat en obra lliure. No hi havia motiu, però si un condicionant: cada un dels 250 treballadors de l’escola havia d’endur-se una part del mural. Conceptualment, vaig treballar sobre una obra que amb la suma de “moltes parts” composesin un “tot” . El resultat van ser 250 quadres de 10 x 10 cm treballats sobre fusta i enmarcats individualment com a peça única." ]
+    ],
     "process" : [
       "M’agrada treballar sobre diferents formats, tant pel que fa a la mida com al suport. Als meus inicis, vaig emprar el paper de diferents gramatges. Després va venir la tela i, en els últims anys, he utilitzat més la fusta com a base de les meves obres. Cada suport m’obre diferents possibilitats, tant a nivell cromàtic com tècnic.", 
       "En l’obra sobre paper, normalment utilitzo tintes (anilines, tintes Seneliers...), acrílics i grafits. En molts dels quadres hi ha collages de diferents materials. De vegades, són retalls que he trobat (premsa, cartes antigues, tranfers de fotografies que he fet a coses que m’han atret en algun moment) i d’altres són papers més subtils (paper japonès, xines...).", "Pel que fa a l’obra sobre tela, bàsicament he utilitzat acrílics, però també grafits i tintes. Aquestes pintures són les més “matèriques”.",
@@ -117,14 +117,16 @@
       "2013 Sel·leccionada XXVII Premi de pintura Sanvisens. Sitges, Barcelona.",
       "2012 Sel·leccionada XX Premi de dibuix i gravat Joan Vilanova. Manresa, Barcelona.",
       "2008 Primer Premi Artistes Manresans. Manresa, Barcelona."
-    ]
+    ],
+    "extra" : ["Disseny per"]
   },
+
   "es" : {
     "nav" : [ "/es", "Inicio", "Colecciones", "Proyectos", "Proceso", "Currículum", "Contacto"
     ],
     "col" : [ "Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Filtres 2007", "Obra 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobreroca", "Dpeus", "Calidoscopi"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
     ],
 
     "tech" : [
@@ -142,14 +144,14 @@
 
       [["Acrílico y tinta sobre tela"],["Acrílico y tinta sobre tela"],["Tinta y grafito sobre tela"], ["Acrílico y tinta sobre tela"],["Técnica mixta sobre tela"], ["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],[ "Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"],["Técnica mixta sobre tela"]]
     ],
-    "prj_d" : {
-      "intro" : "Los proyectos son, junto con la obra pictórica, la otra gran parte de mi actividad, donde puedo permitirme ir más allá del marco.",
-      "vi_suals" : [ "Vi_suals es un proyecto impulsado por el Ayuntamiento de Manresa y la DO del Pla del Bages. Une la cultura vitivinícola y la creación artística.","Este último año, la cepa ha sido el protagonista. Me encargo del diseño artístico (imagen del evento, libretos informativos...)."," El trabajo lo realizo sobre papel, empleando tintas y lápices. Las obras se pueden ver en diferentes exposiciones." ],
-      "the-booc" :[ "Colaboración especial para un aceite exclusivo extraído de aceitunas autóctonas de la región del Bages (variedad Corbella y Verdal).","El propósito fue elaborar dibujos que han sido utilizados para las etiquetas de las botellas y parte del interior del embalaje final." ],
-      "sobrerroca" : [ "Colaboración con el diseñador de interiores José M. Roma para pintar el techo de la nueva librería Sobrerroca (Manresa, Barcelona).","También ha incluido pintar parte del mostrador y decorar el interior con dibujos hechos sobre madera y reproducciones de los mismos dibujos en las paredes y columnas de la tienda." ],
-      "dpeus" : "Proyecto iniciado por el diseñador de interiores José M. Roma para crear pinturas para decorar la nueva oficina del centro podológico Dpeus (Manresa, Barcelona). Esto conllevó crear el rótulo, el diseño interior (puertas y ventanas) y la imagen corporativa.",
-      "calidoscopi" : [ "Encargo del mural conmemorativo del 50 aniversario de la escuela Joviat (Manresa, Barcelona).", "El encargo fue basado en obra libre. No había motivo, pero si un condicionante: cada uno de los 250 trabajadores de la escuela debía llevarse una parte del mural. Conceptualmente, trabajé sobre una obra que con la suma de “muchas partes” compongan un “todo” El resultado fueron 250 cuadros de 10 x 10 cm trabajados sobre madera y enmarcados individualmente como pieza única." ]
-    },
+    "prj_d" : [
+      "Los proyectos son, junto con la obra pictórica, la otra gran parte de mi actividad, donde puedo permitirme ir más allá del marco.",
+      [ "Vi_suals es un proyecto impulsado por el Ayuntamiento de Manresa y la DO del Pla del Bages. Une la cultura vitivinícola y la creación artística.","Este último año, la cepa ha sido el protagonista. Me encargo del diseño artístico (imagen del evento, libretos informativos...)."," El trabajo lo realizo sobre papel, empleando tintas y lápices. Las obras se pueden ver en diferentes exposiciones." ],
+      [ "Colaboración especial para un aceite exclusivo extraído de aceitunas autóctonas de la región del Bages (variedad Corbella y Verdal).","El propósito fue elaborar dibujos que han sido utilizados para las etiquetas de las botellas y parte del interior del embalaje final." ],
+      [ "Colaboración con el diseñador de interiores José M. Roma para pintar el techo de la nueva librería Sobrerroca (Manresa, Barcelona).","También ha incluido pintar parte del mostrador y decorar el interior con dibujos hechos sobre madera y reproducciones de los mismos dibujos en las paredes y columnas de la tienda." ],
+      [ "Proyecto iniciado por el diseñador de interiores José M. Roma para crear pinturas para decorar la nueva oficina del centro podológico Dpeus (Manresa, Barcelona). Esto conllevó crear el rótulo, el diseño interior (puertas y ventanas) y la imagen corporativa."],
+      [ "Encargo del mural conmemorativo del 50 aniversario de la escuela Joviat (Manresa, Barcelona).", "El encargo fue basado en obra libre. No había motivo, pero si un condicionante: cada uno de los 250 trabajadores de la escuela debía llevarse una parte del mural. Conceptualmente, trabajé sobre una obra que con la suma de “muchas partes” compongan un “todo” El resultado fueron 250 cuadros de 10 x 10 cm trabajados sobre madera y enmarcados individualmente como pieza única." ]
+      ],
     "process" : [
       "Me gusta trabajar sobre diferentes formatos, tanto en cuanto a tamaño como al soporte. En mis inicios, empleé el papel de diferentes gramajes. Después vino la tela y, en los últimos años, he utilizado más la madera como base de mis obras. Cada soporte me abre diferentes posibilidades, tanto a nivel cromático como técnico.", 
       "En la obra sobre papel normalmente utilizo tintas (anilinas, tintas Seneliers ...), acrílicos y grafitos. En muchos de los cuadros hay collages de diferentes materiales. A veces, son recortes que he encontrado (prensa, cartas antiguas, tranfers de fotografías que he hecho cosas que me han atraído en algún momento) y otros son papeles más sutiles (papel japonés, chino ...).", "En cuanto a la obra sobre tela, básicamente he utilizado acrílicos, pero también grafitos y tintas. Estas pinturas son las más “matéricas”.",
@@ -202,14 +204,15 @@
       "2013 Seleccionada XXVII Premio de pintura Sanvisens. Sitges, Barcelona.",
       "2012 Seleccionada XX Premio de dibujo y grabado Joan Vilanova. Manresa, Barcelona.",
       "2008 Primer Premio Artistes Manresans. Manresa, Barcelona."
-    ]
+    ],
+    "extra" : ["Diseño por"]
   },
   "en" : {
     "nav" : [ "/en", "Home", "Collections", "Projects", "Process", "Curriculum", "Contact"
     ],
     "col" : [ "Artwork 2016-2017", "Artwork 2014-2015", "Dos a dos 2012","Papallones 2011", "Artwork 2010", "Filtres 2007", "Artwork 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobreroca", "Dpeus", "Calidoscopi"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
     ],
 
     "tech" : [
@@ -228,14 +231,14 @@
       [["Acrylic and ink on canvas"],["Acrylic and ink on canvas"],["Ink and graphite on canvas"], ["Acrylic and ink on canvas"],["Mixed media on canvas"], ["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],[ "Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"]]
     ],
 
-    "prj_d" : {
-      "intro" : "My projects, along with my artwork, are what allow me to go beyond the frame.",
-      "Vi_suals" : [ "Vi_suals is a project promoted by the City Council of Manresa and the DO of the Pla de Bages. It unites wine culture and artistic creation.","This past year, the vine has been the protagonist. I am responsible for the artistic design (the images for the event, related booklets...).","These pieces were done on paper, using inks and pencils. The works can be seen in different exhibitions." ],
-      "the-booc" :[ "Special collaboration for an exclusive oil from olives (Corbella and Verdal varieties) indigenous to the region where I live.","The proposal was that I make paintings to be used for the labels of the bottles and part of the interior of the final packaging." ],
-      "sobrerroca" : [ "This new collaboration with the interior designer Josep M. Roma involved painting the ceiling of the new bookshop Sobrerroca (Manresa, Barcelona).","It also included painting a part of the showcase and decorating the interior with paintings on a wood base and reproductions of these same paintings on the walls and columns of the shop." ],
-      "dpeus" : "Projecte iniciat pel dissenyador d’interiors Josep M. Roma per crear pintures per decorar la nova oficina del centre podològic Dpeus (Manresa, Barcelona). Això va comportar crear el rètol, el disseny interior (portes i finestres) i la imatge corporativa.",
-      "calidoscopi" : [ "Commissioned by the Joviat Institute (Manresa, Barcelona) to celebrate its 50th anniversary.", "Although there was no specific theme, there was one condition: that each of the 250 workers receive a part of the mural. This piece was a conceptual one in which the sum of the parts made a whole. The result was 250 10x10cm paintings on wood, individually framed." ]
-    },
+    "prj_d" : [
+      "My projects, along with my artwork, are what allow me to go beyond the frame.",
+      [ "Vi_suals is a project promoted by the City Council of Manresa and the DO of the Pla de Bages. It unites wine culture and artistic creation.","This past year, the vine has been the protagonist. I am responsible for the artistic design (the images for the event, related booklets...).","These pieces were done on paper, using inks and pencils. The works can be seen in different exhibitions." ],
+      [ "Special collaboration for an exclusive oil from olives (Corbella and Verdal varieties) indigenous to the region where I live.","The proposal was that I make paintings to be used for the labels of the bottles and part of the interior of the final packaging." ],
+      [ "This new collaboration with the interior designer Josep M. Roma involved painting the ceiling of the new bookshop Sobrerroca (Manresa, Barcelona).","It also included painting a part of the showcase and decorating the interior with paintings on a wood base and reproductions of these same paintings on the walls and columns of the shop." ],
+      [ "Project initiated by the interior designer Josep M. Roma to create paintings to decorate the new podiatrist’s office Dpeus (Manresa, Barcelona). This included creating the sign, the interior design images (doors and lighting) and the corporate identity."],
+      [ "Commissioned by the Joviat Institute (Manresa, Barcelona) to celebrate its 50th anniversary.", "Although there was no specific theme, there was one condition: that each of the 250 workers receive a part of the mural. This piece was a conceptual one in which the sum of the parts made a whole. The result was 250 10x10cm paintings on wood, individually framed." ]
+    ],
     "process" : [
       "I enjoy working with different formats, different sizes as well as different materials. In my early days, I used different weight paper, then moved on to canvas, and in recent years, I have often used wood as a base for my art. Each material gives me different possibilities, both technically and color-wise.", 
       "For my artwork on paper I usually use inks and dyes as well as acrylics and graphite. In many of the paintings there are collages of different materials: things I’ve found and cut out of newspapers, old cards, transfers of photographs I've taken of something that caught my attention at one time, or pieces of delicate Japanese or Chinese paper.", "Regarding the work on canvas, I mostly use acrylics, but also sometimes graphite and inks. These paintings are the “matter”.",
@@ -288,8 +291,8 @@
       "2013 Selected XXVII Sanvisens Painting Prize. Sitges, Barcelona.",
       "2012 Selected XX Joan Vilanova Drawing and Engraving Prize. Manresa, Barcelona.",
       "2008 First Prize Artistes Manresans. Manresa, Barcelona."
-    ]
-
+    ],
+    "extra" : ["Designed by"]
   }
 
 }

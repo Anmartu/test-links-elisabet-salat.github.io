@@ -1,9 +1,18 @@
+.prj-intro {
+  margin: 80px auto 0;
+  width: 941px;
+  padding-right: 460px;
+  font-size: 30px;
+  box-sizing: border-box;
+  line-height: 140%;
+}
+
 .list-prj {
   padding: 0;
   display: grid;
   grid-template-columns: repeat(4, 230px);
   grid-template-rows: repeat(4, 230px);
-  margin-top: 126px;
+  margin-top: 66px;
   justify-content: center;
   gap: 6px;
 }

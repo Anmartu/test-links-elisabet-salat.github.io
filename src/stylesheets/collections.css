@@ -37,9 +37,7 @@
   grid-column-start: 2;
   grid-column-end: 4;
 }
-.col-item:nth-child(6) h2{
-width: 200px;
-}
+
 .col-item:nth-child(7){
   grid-column-start: 2;
 }

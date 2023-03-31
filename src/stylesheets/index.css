@@ -28,7 +28,7 @@ a {
   width: 100%;
 }
 
-.naveg a:after {
+.naveg li a:after, .naveg li.visited a:after{
   content: '';
   position: absolute;
   background-color: #000000;
@@ -37,6 +37,10 @@ a {
   left: 0;
   bottom: -5px;
   transition: 0.3s;
+}
+
+.naveg li.visited a:after{
+  width: 100%;
 }
 
 .naveg li:hover a{

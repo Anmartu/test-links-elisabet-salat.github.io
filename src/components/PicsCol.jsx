@@ -18,7 +18,7 @@ export const PicsCol = ({ele, setele}) => {
   //   else window.addEventListener('DOMContentLoaded', resize)
   // },[setele])
 
-  console.log(ele)
+
   useEffect(()=>{
 
     let circleList = document.querySelector('.circles')

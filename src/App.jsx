@@ -59,16 +59,38 @@ useEffect(()=>{
       document.querySelectorAll('#hidden > ul > li > button')[1].click()
     }
   } 
+  // let nav = document.querySelectorAll('.naveg > li')
+  // console.log(nav)
+  // nav.forEach((n) => {
+  //   n.addEventListener('click', () => {
+  //     if (n.className != 'visited') {
+  //       nav.forEach(n => {
+  //         if (n.className=='visited') n.classList.remove('visited')
+  //       })
+  //       n.classList.add('visited')
+  //     }
+  //   })
+  // })
 
 },[])
 
 useEffect(()=>{
   let arr = location.pathname.split('/')
-  if(arr[1] =='en' || arr[1] =='es' ) {
-    arr.shift()
-  } else {
-    arr[0] = 'ca'
-  }
+ 
+  if (arr[1] =='en' || arr[1] =='es' ) arr.shift()
+  else arr[0] = 'ca'
+
+  let nav = content[input].nav.map(n => n.toLowerCase())
+  let loc = nav.indexOf(arr[1].replace('%C3%A9','é').replace('%C2%B7','·').replace('%C3%AD','í'))-2
+  let navItems = document.querySelectorAll('.naveg > li')
+  if (arr[1]) {
+    navItems[loc].classList.add('visited')
+    navItems.forEach(n => {
+      if (n.className=='visited' && n != navItems[loc] ) n.classList.remove('visited')
+    })
+  } else (navItems.forEach(n => n.classList.remove('visited')))
+
+
   if(arr[0] !== input) {
     navigate(location.pathname)
     setInput(arr[0])
@@ -148,7 +170,7 @@ return (
       </div>
       <div id='credits'>
         <div>
-          Disseny per <a href='https://andreumartorell.com/'>Andreu Martorell</a>
+          {content[input].extra[0]}<a href='https://andreumartorell.com/'> Andreu Martorell</a>
         </div>
       </div>
     </footer>

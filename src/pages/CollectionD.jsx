@@ -14,7 +14,7 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
       loc.pop()
     }
 
-console.log(loc)
+console.log(indc)
 
 let col_d = ind.ca.col_t[loc][1].map(item => item.replace('%20',' ').replace('%C3%A8','è').replace('%C3%AD', 'í') )
 let col_m = ind.ca.col_m[loc][1]

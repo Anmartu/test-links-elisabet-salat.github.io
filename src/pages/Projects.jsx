@@ -1,21 +1,17 @@
 import '../stylesheets/projects.css'
-
+import { useEffect } from 'react';
 import {Link} from "react-router-dom";
 
 let arr = ['cat', 'esp', 'eng']
 export const [Projects, Projects_es, Projects_en] = arr.map(() => {
   return ({ind, lng}) => {
-    console.log(ind.ca.prj[0].toLowerCase())
-
     let path = ind[lng].nav[3].toLowerCase()
-
-   
-
 
     return (
     <>
-    {/* <h1>{ind[lng].nav[3]} </h1> */}
+    <p className='prj-intro'>{ind[lng].prj_d[0]}</p>
     <ul className='list-prj'> 
+
       {ind.ca.prj.map((n,i) => {
         let prj_p = n.replace(/\s/g,'-').toLowerCase()
         return (
