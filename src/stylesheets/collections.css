@@ -1,8 +1,8 @@
 .list-col{
   display: grid;
-  grid-template-columns: 250px 250px;
-  grid-template-rows: repeat(8, auto);
-  gap: 197px 143px;
+  grid-template-columns: repeat(3, 201px);
+  grid-template-rows: repeat(5, 260px);
+  gap: 52px 77px;
   padding: 0;
   padding-top: 82px;
   justify-content: center;
@@ -14,32 +14,34 @@
 }
 
 .col-item:nth-child(1){
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 .col-item:nth-child(2){
+  grid-column-start: 2;
+}
+.col-item:nth-child(3){
   grid-row-start: 2;
   grid-row-end: 4;
 }
-.col-item:nth-child(3){
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
 .col-item:nth-child(4){
-  grid-row-start: 4;
-  grid-row-end: 6;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 .col-item:nth-child(5){
-  grid-row-start: 5;
-  grid-row-end: 7;
+  grid-row-start: 4;
 }
 .col-item:nth-child(6){
-  grid-row-start: 6;
-  grid-row-end: 8;
+  grid-row-start: 4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.col-item:nth-child(6) h2{
+width: 200px;
 }
 .col-item:nth-child(7){
-  grid-row-start: 7;
-  grid-row-end: 9;
+  grid-column-start: 2;
 }
 
 .col-item img {
@@ -55,8 +57,16 @@
 }
 
 .col-title {
-  font-size: 18px;
+  font-size: 35px;
+  margin-bottom: 21px;
+  width: 180px;
+  line-height: 45px;
+  transition: 1s;
 }
+
+/* .col-item:hover .col-title {
+  color: #5656f9;
+} */
 
 .col-container {
   border-left: solid white 13px;
@@ -70,8 +80,21 @@
 
 @media only screen and (max-width: 850px) {
   .list-col {
-    gap: 197px 5%;
+    gap: 46px 0;
+    grid-template-columns: repeat(3, 205px);
+    justify-content: space-evenly;
   }
+  .col-item {
+    width: 98%;
+  }
+  .col-container {
+    padding-left: 4%;
+}
+.col-title {
+  font-size: 29px;
+  margin-bottom: 21px;
+  width: 141px;
+}
 }
 
 @media only screen and (max-width: 640px) {
@@ -87,8 +110,9 @@
   }
 
   .col-title {
-    font-size: 6vmin;
+    font-size: 7vmin;
     margin-bottom: 11px;
+    width: 39%;
   }
 
   .col-item img {
@@ -106,4 +130,9 @@
     display: block;
   }
   
+}
+@media only screen and (max-width: 400px) {
+  .col-title {
+    width: 100%;
+  }
 }

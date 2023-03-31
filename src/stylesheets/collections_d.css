@@ -120,12 +120,11 @@
   box-sizing: border-box;
 }
 
-.col-pic-d{
+.col-pic-d {
   display: flex;
-  margin-top: 36px;
+  margin: 36px 15% 0;
   align-items: flex-start;
-  justify-content: center;
-  gap: 10%;
+  justify-content: space-between;
 }
 
 .pic-d {
@@ -339,6 +338,10 @@
   .container-title-col, .title-col {
     width: 100%;
   }
+  
+  .col-pic-d {
+    margin: 15px 4% 0;
+  }
 }
 
 @media only screen and (max-width : 640px) {
@@ -424,10 +427,6 @@
 
 .container-title-col span {
   font-size: 17px;
-}
-
-.col-pic-d {
-  margin-top: 15px;
 }
 
 .present .out-pic {

@@ -159,7 +159,7 @@ const [ele, setele] = useState(6)
         <div className='out-pic'><div></div><div></div></div>
         <div className='data'>
         <p>{col_m[0]}</p>
-        {tech[0].map((n,i,a) => <p key={i}>{n}</p>)}
+        {tech[0].map((n,i) => <p key={i}>{n}</p>)}
         </div>
       </div>
 

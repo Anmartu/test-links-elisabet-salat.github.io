@@ -3,9 +3,9 @@
     "nav" : [
     "", "Inici", "Col·leccions", "Projectes", "Procés", "Currículum", "Contacte"
     ],
-    "col" : [ "Obra 2016-2017", "Obra 2014-2015", "Dos a dos (2012)","Papallones 2011", "Obra 2010", "Filtres 2007", "Obra 2007"
+    "col" : [ "Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Filtres 2007", "Obra 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobreroca", "Dpeus", "Calidoscopi"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
     ],
     "col_t" : [
       ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
@@ -122,7 +122,7 @@
   "es" : {
     "nav" : [ "/es", "Inicio", "Colecciones", "Proyectos", "Proceso", "Currículum", "Contacto"
     ],
-    "col" : [ "Obra 2016-2017", "Obra 2014-2015", "Dos a dos (2012)","Papallones 2011", "Obra 2010", "Filtres 2007", "Obra 2007"
+    "col" : [ "Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Filtres 2007", "Obra 2007"
     ],
     "prj" : [ "Vi_suals", "The booc", "Sobreroca", "Dpeus", "Calidoscopi"
     ],
@@ -207,7 +207,7 @@
   "en" : {
     "nav" : [ "/en", "Home", "Collections", "Projects", "Process", "Curriculum", "Contact"
     ],
-    "col" : [ "Artwork 2016-2017", "Artwork 2014-2015", "Dos a dos (2012)","Papallones 2011", "Artwork 2010", "Filtres 2007", "Artwork 2007"
+    "col" : [ "Artwork 2016-2017", "Artwork 2014-2015", "Dos a dos 2012","Papallones 2011", "Artwork 2010", "Filtres 2007", "Artwork 2007"
     ],
     "prj" : [ "Vi_suals", "The booc", "Sobreroca", "Dpeus", "Calidoscopi"
     ],
