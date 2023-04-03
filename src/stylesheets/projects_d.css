@@ -28,10 +28,6 @@
   gap: 10px;
   margin: 0 10px;
 }
-/* 
-.var-2-4 {
-  grid-column: 2 / 4;
-} */
 
 @media only screen and (max-width: 870px) {
   .prj-d-data p {
@@ -45,6 +41,10 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .prj-container {
+    margin-top: 35px;
+  }
+
   .prj-d-pic {
     height: 320px;
   }
@@ -60,7 +60,6 @@
   .prj-d-data p {
     width: 100%;
   }
-
 
   .prj-d-img-container {
     gap: 10px;

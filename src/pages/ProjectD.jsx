@@ -10,11 +10,9 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
     for (let i = 0; i < ind.ca.prj_i[loc]; i++) {
       arr.push(i)
     }
-console.log(loc)
   useEffect(() => {
     if(loc == 1) {
     let var2_4 = document.querySelectorAll('.prj-d-img')
-    console.log(var2_4[10])
     var2_4[10].classList.add('var-2-4')
     }
 

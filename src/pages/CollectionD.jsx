@@ -14,7 +14,6 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
       loc.pop()
     }
 
-console.log(indc)
 
 let col_d = ind.ca.col_t[loc][1].map(item => item.replace('%20',' ').replace('%C3%A8','è').replace('%C3%AD', 'í') )
 let col_m = ind.ca.col_m[loc][1]
@@ -169,7 +168,7 @@ const [ele, setele] = useState(6)
           {col_d.map((item, i) => {      
               return (
                 <div key={item} className={`img-col ${i==0 ? 'border' : i >= ele ? 'hidden-img' : ''}`.trimEnd()} >
-                <img v={i} width='115px' height='115px' src={`/col/${ind.ca.col_t[loc][0]}/${item}.jpg`} alt="" />
+                <img v={i} width='115' height='115' src={`/col/${ind.ca.col_t[loc][0]}/${item}.jpg`} alt="" />
                 </div>
                 )
           })}

@@ -9,9 +9,9 @@ export const [Projects, Projects_es, Projects_en] = arr.map(() => {
 
     return (
     <>
+    <div className='prj-container'>
     <p className='prj-intro'>{ind[lng].prj_d[0]}</p>
     <ul className='list-prj'> 
-
       {ind.ca.prj.map((n,i) => {
         let prj_p = n.replace(/\s/g,'-').toLowerCase()
         return (
@@ -22,6 +22,7 @@ export const [Projects, Projects_es, Projects_en] = arr.map(() => {
           </Link>
         </li> ) })}
     </ul>
+    </div>
   </>
   )}
 })

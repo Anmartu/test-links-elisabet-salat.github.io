@@ -118,6 +118,7 @@
       "2012 Sel·leccionada XX Premi de dibuix i gravat Joan Vilanova. Manresa, Barcelona.",
       "2008 Primer Premi Artistes Manresans. Manresa, Barcelona."
     ],
+    "contact" : ["Posem-nos en contacte"],
     "extra" : ["Disseny per"]
   },
 
@@ -205,6 +206,7 @@
       "2012 Seleccionada XX Premio de dibujo y grabado Joan Vilanova. Manresa, Barcelona.",
       "2008 Primer Premio Artistes Manresans. Manresa, Barcelona."
     ],
+    "contact" : ["Pongámonos en contacto"],
     "extra" : ["Diseño por"]
   },
   "en" : {
@@ -292,6 +294,7 @@
       "2012 Selected XX Joan Vilanova Drawing and Engraving Prize. Manresa, Barcelona.",
       "2008 First Prize Artistes Manresans. Manresa, Barcelona."
     ],
+    "contact" : ["Let's get in touch"],
     "extra" : ["Designed by"]
   }
 

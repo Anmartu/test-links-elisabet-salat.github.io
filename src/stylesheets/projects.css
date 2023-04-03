@@ -1,10 +1,15 @@
+.prj-container {
+  display: flex;
+  margin-top: 210px;
+  justify-content: center;
+  gap: 5%;
+}
+
 .prj-intro {
-  margin: 80px auto 0;
-  width: 941px;
-  padding-right: 460px;
-  font-size: 30px;
-  box-sizing: border-box;
+  margin: 0;
+  font-size: 24px;
   line-height: 140%;
+  width: 20%;
 }
 
 .list-prj {
@@ -12,7 +17,7 @@
   display: grid;
   grid-template-columns: repeat(4, 230px);
   grid-template-rows: repeat(4, 230px);
-  margin-top: 66px;
+  margin-top: 0;
   justify-content: center;
   gap: 6px;
 }
@@ -25,25 +30,20 @@
 }
 
 .prj-item:nth-child(1){
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-column: 1/3;
+  grid-row: 1/3;
 }
 
 .prj-item:nth-child(2){
-  grid-column-start: 3;
-  grid-column-end: 5;
+  grid-column: 3/5;
 }
 .prj-item:nth-child(2) img{
   margin-top: -9px;
 }
 
 .prj-item:nth-child(3){
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 5;
+  grid-column: 3/5;
+  grid-row: 3/5;
 }
 .prj-item:nth-child(4){
   grid-row-start: 1;
@@ -56,8 +56,7 @@
 
 .prj-item:nth-child(5){
   grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 5;
+  grid-row: 3/5;
 }
 
 .prj-item:nth-child(1)::after, .prj-item:nth-child(2)::after, .prj-item:nth-child(3)::after, .prj-item:nth-child(4)::after, .prj-item:nth-child(5)::after{
@@ -105,25 +104,55 @@ visibility: visible;
   /* aspect-ratio: 1/1; */
 }
 
+@media only screen and (max-width : 1330px) {
+  .prj-container {
+    gap: 3%;
+    margin-top: 113px;
+    flex-direction: column;
+    }
+  .prj-intro {
+    font-size: 19px;
+    width: 940px;
+    margin: 0 auto 32px;
+    padding-right: 490px;
+    box-sizing: border-box;
+    }
+
+}
+
+
 @media only screen and (max-width : 1000px) {
   .list-prj {
     grid-template-columns: repeat(4, 20%);
-    grid-template-rows: repeat(4, 24%);
+    grid-template-rows: repeat(4, 26%);
   }
 
   .prj-item:nth-child(1)::after, .prj-item:nth-child(2)::after, .prj-item:nth-child(3)::after, .prj-item:nth-child(4)::after, .prj-item:nth-child(5)::after {
     font-size: 17px;
+  }
+  .prj-intro {
+    width: 82%;
+    padding-right: 43%;
 }
 }
 
+
 @media only screen and (max-width : 640px) {
+  .prj-container {
+    margin-top: 35px;
+  }
+
+  .prj-intro {
+    width: 90%;
+    padding-right: 0;
+  }
 
   .list-prj {
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin: 0 5px;
-    padding-top: 65px;
+    padding-top: 0;
   }
 
   .prj-item:nth-child(4) img {
@@ -140,5 +169,12 @@ visibility: visible;
   }
   .prj-item {
     aspect-ratio: 1/1;
+  }
+}
+
+@media only screen and (max-width : 300px) {
+  .prj-intro {
+    font-size: 15px;
+    line-height: 155%;
   }
 }

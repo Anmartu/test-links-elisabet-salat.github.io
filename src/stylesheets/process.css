@@ -1,0 +1,75 @@
+.proc-container {
+  display: flex;
+  gap: 2%;
+  margin: 0 2%;
+}
+
+.proc-par {
+  display: flex;
+  margin: 25px auto;
+  gap: 44px;
+  height: 466px;
+  justify-content: center;
+  align-items: center;
+}
+
+.proc-img {
+  width: 320px;
+  object-fit: cover;
+  height: 320px;
+  aspect-ratio: 1/1;
+  border: solid white 6px;
+}
+
+.proc-text {
+  margin-top: 0;
+}
+
+.proc-p {
+  width: 409px;
+}
+
+.proc-par:nth-child(1), .proc-par:nth-child(3) {
+  background: #cad0ff;
+}
+.proc-par:nth-child(3) img {
+  object-position: -86px;
+}
+
+@media only screen and (max-width: 900px){
+  .proc-par {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 4% 0;
+    gap: 14px;
+  }
+
+  .proc-par:nth-child(2) {
+    flex-direction: column;
+  }
+
+  .proc-p {
+    width: 319px;
+  }
+  
+}
+
+@media only screen and (max-width: 430px){
+  .proc-img {
+    width: 100%;
+    height: auto;
+  }
+  .proc-p {
+    width: 100%;
+
+  }
+  .proc-par {
+    padding: 13% 6%;
+  }
+  .proc-text {
+    font-size: 14px;
+  }
+  
+}
+
+
