@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  align-items: center;
+  height: 718px;
+  margin-top: 70px;
+  gap: 246px;
+  justify-content: center;
+}
+
+.home-intro {
+  width: 450px;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.home-img {
+  width: 280px;
+  border: solid 12px white;
+}

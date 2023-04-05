@@ -380,14 +380,6 @@ body.active {
   font-size: 19px;
 }
 
-/* .xarxes-r{
-  position: absolute;
-  flex-direction: column-reverse;
-  bottom: 2%;
-  right: 2%;
-  gap: 19px;
-} */
-
 .naveg li {
   position: relative;
   visibility: hidden;
@@ -450,6 +442,6 @@ body.active {
   }
   #logo .active {
     width: 130px;
-}
+  }
 
 }

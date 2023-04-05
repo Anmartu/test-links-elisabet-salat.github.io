@@ -3,6 +3,7 @@
     "nav" : [
     "", "Inici", "Col·leccions", "Projectes", "Procés", "Currículum", "Contacte"
     ],
+    "home" : ["Benvinguts a la meva website, on podreu seguir tant l’històric com les últimes notícies entorn a la meva obra i als meus projectes pictòrics."],
     "col" : [ "Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Filtres 2007", "Obra 2007"
     ],
     "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
@@ -56,7 +57,7 @@
 
       [["Acrílic i tinta sobre tela"],["Acrílic i tinta sobre tela"],["Tinta i grafit sobre tela"], ["Acrílic i tinta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"]]
     ],
-    "prj_i" : [ 14, 13, 8, 7, 24 ],
+    "prj_i" : [ 12, 12, 6, 7, 13 ],
     "prj_d" : [
       "Els projectes són, juntament amb l’obra pictòrica, l’altre gran part de la meva activitat, on em puc permetre anar més enllà del marc.",
       [ "Vi_suals és un projecte impulsat per l'Ajuntament de Manresa i la DO del Pla del Bages. Uneix la cultura vitivinícola i la creació artística.","Aquest darrer any, el cep n'ha estat el protagonista. M'encarrego del disseny artístic (imatge de l'event, llibrets informatius...)."," El treball el realitzo sobre paper, emprant tintes i llapis. Les obres es poden veure en diferents exposicions." ],
@@ -129,6 +130,7 @@
     ],
     "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
     ],
+    "home" : ["Bienvenidos a mi website, donde podrán seguir tanto el histórico como las últimas novedades sobre mi obra y mis proyectos pictóricos."],
 
     "tech" : [
       [["Técnica mixta sobre madera"],["Técnica mixta","Colección privada"],["Técnica mixta sobre madera","Colección privada"], ["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre papel"],["Técnica mixta sobre papel","Colección privada"]],
@@ -212,6 +214,7 @@
   "en" : {
     "nav" : [ "/en", "Home", "Collections", "Projects", "Process", "Curriculum", "Contact"
     ],
+    "home" : ["Welcome to my website, where you can find both my past and most recent artwork and projects."],
     "col" : [ "Artwork 2016-2017", "Artwork 2014-2015", "Dos a dos 2012","Papallones 2011", "Artwork 2010", "Filtres 2007", "Artwork 2007"
     ],
     "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
