@@ -146,8 +146,8 @@
 }
 
 .present img {
-  max-width: 770px;
-  max-height: 780px;
+  max-width: 680px;
+  max-height: 650px;
   border: none;
 }
 
@@ -292,7 +292,7 @@
 }
 
 .border {
-  outline: solid white 12px;
+  outline: solid #a4b7ff 12px;
 }
 
 

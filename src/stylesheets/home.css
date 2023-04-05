@@ -11,9 +11,87 @@
   width: 450px;
   font-size: 32px;
   font-weight: 800;
+  position: relative;
+  left: 0;
+  transition: 1s;
+  opacity: 1;
+}
+
+.home-img-container {
+  display: flex;
+  position: relative;
+  width: 309px;
+  height: 432px;
+  transition: 1s 0.2s;
+  right: 0;
+  opacity: 1;
 }
 
 .home-img {
   width: 280px;
   border: solid 12px white;
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  transition: 3s;
+}
+
+.home-img:nth-child(1)::after {
+  content: 'Hola';
+}
+
+.hidden-home {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.side-l{
+  position: relative;
+  left: -100px;
+  opacity: 0;
+
+}
+
+.side {
+  position: relative;
+  right: -100px;
+  opacity: 0;
+
+}
+
+@media only screen and (max-width:1110px) {
+  .home {
+    gap: 36px;
+  }
+}
+
+@media only screen and (max-width:870px) {
+  .home {
+    flex-direction: column;
+    margin: auto 3%;
+    height: 100%;
+  }
+  .home-intro {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home {
+    flex-direction: column;
+    margin: auto 3%;
+    height: 100%;
+  }
+  .home-intro {
+    font-size: 20px;
+  }
+  .home-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+  }
+  .home-img-container {
+    width: 90%;
+    justify-content: center;
+  }
 }
