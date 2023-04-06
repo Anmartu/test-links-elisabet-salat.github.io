@@ -31,7 +31,7 @@ path.shift()
 if ((path[0] == 'es' || path[0] == 'en')&& path[1] !== '') {
   path.shift()
 }
-
+console.log(path)
 path = path.map(item => {
   if (item === 'en' || item ==='es') {
     item = '/' + item
@@ -40,6 +40,8 @@ path = path.map(item => {
   }
   return item.replace("%C2%B7", "·").replace("%C3%A9","é").replace("%C3%AD","í").replace("%C3%B3","ó")
 })
+
+
 
 if(path[0] == 'projectes' || path[0] == 'proyectos' || path[0] == 'projects' ){
   n = 2 ; lost = 7
