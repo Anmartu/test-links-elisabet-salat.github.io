@@ -1,5 +1,12 @@
 {
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "/es/", "dest": "/" },
+    { "src": "/en/", "dest": "/" }
+  ],
   "rewrites":  [
-    {"source": "/(.*)", "destination": "/"}
+    {"source": "/(.*)", "destination": "/"},
+    {"source": "/es/", "destination": "/"},
+    {"source": "/en/", "destination": "/"}
   ]
 }
