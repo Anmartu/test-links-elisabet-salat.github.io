@@ -1,12 +1,5 @@
 {
-  "routes": [
-    { "src": "/", "dest": "/" },
-    { "src": "/es/", "dest": "/" },
-    { "src": "/en/", "dest": "/" },
-    { "src": "/col\\\\·leccions", "dest": "/" },
-    { "src": "/en/collections", "dest": "/" },
-    { "src": "/projectes", "dest": "/" },
-    { "src": "/proc\\\\és", "dest": "/" },
-    { "src": "/projectes/vi_suals", "dest": "/" }
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
   ]
 }
