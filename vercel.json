@@ -3,6 +3,6 @@
     { "src": "/", "dest": "/" },
     { "src": "/es/", "dest": "/" },
     { "src": "/en/", "dest": "/" },
-    { "src": "/col·leccions", "dest": "/" }
+    { "src": "/col·leccions/", "dest": "/" }
   ]
 }
