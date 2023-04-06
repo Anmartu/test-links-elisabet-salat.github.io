@@ -39,9 +39,6 @@ content[input].nav.map( item => {
 
 const [,r,home,, collections, collections_p, projects, projects_p, process, process_p, curriculum, curriculum_p, contact, contact_p] = index
 
-// console.log(index)
-// console.log('content:',content)
-
 let index_cp = [[],[...content.ca.prj.map(item=> item.replace(/\s/g,'-').toLowerCase())]]
 Object.entries(content).map(([,item]) => {
 index_cp[0].push(item.col.map(item => item.replace(/\s/g,'-').toLowerCase()))
@@ -58,19 +55,7 @@ useEffect(()=>{
       document.querySelector('#select').click()
       document.querySelectorAll('#hidden > ul > li > button')[1].click()
     }
-  } 
-  // let nav = document.querySelectorAll('.naveg > li')
-  // console.log(nav)
-  // nav.forEach((n) => {
-  //   n.addEventListener('click', () => {
-  //     if (n.className != 'visited') {
-  //       nav.forEach(n => {
-  //         if (n.className=='visited') n.classList.remove('visited')
-  //       })
-  //       n.classList.add('visited')
-  //     }
-  //   })
-  // })
+  }
 
 },[])
 
@@ -80,22 +65,29 @@ useEffect(()=>{
   if (arr[1] =='en' || arr[1] =='es' ) arr.shift()
   else arr[0] = 'ca'
 
-  let nav = content[input].nav.map(n => n.toLowerCase())
-  let loc = nav.indexOf(arr[1].replace('%C3%A9','é').replace('%C2%B7','·').replace('%C3%AD','í'))-2
-  let navItems = document.querySelectorAll('.naveg > li')
-  if (arr[1]) {
-    navItems[loc].classList.add('visited')
-    navItems.forEach(n => {
-      if (n.className=='visited' && n != navItems[loc] ) n.classList.remove('visited')
-    })
-  } else (navItems.forEach(n => n.classList.remove('visited')))
-
-
   if(arr[0] !== input) {
+    console.log('canviii', input)
     navigate(location.pathname)
     setInput(arr[0])
+    console.log(arr[0] == input)
     cookie.set('lng', arr[0], {path: '/', maxAge: 3600*24*3600})
+  } else {
+    let nav = content[input].nav.map(n => n.toLowerCase())
+    console.log('nav: ', nav, 'arr: ', arr)
+    let loc = nav.indexOf(arr[1].replace('%C3%A9','é').replace('%C2%B7','·').replace('%C3%AD','í'))-2
+    console.log('indexOf: ',arr[1].replace('%C3%A9','é').replace('%C2%B7','·').replace('%C3%AD','í'))
+    let navItems = document.querySelectorAll('.naveg > li')
+    console.log('loc: ', loc)
+    console.log('navItems: ', navItems)
+    if (arr[1]) {
+      navItems[loc].classList.add('visited')
+      navItems.forEach(n => {
+        if (n.className=='visited' && n != navItems[loc] ) n.classList.remove('visited')
+      })
+    } else (navItems.forEach(n => n.classList.remove('visited')))
+
   }
+
 })
 
 
@@ -108,7 +100,6 @@ return (
       <Burger />
     </div>
       <ul className='naveg'>
-        {/* <li><Link to={`${r}/`} >{home}</Link></li> */}
         <li><Link to={`${r}/${collections_p}`}>{collections}</Link></li>
         <li><Link to={`${r}/${projects_p}`}>{projects}</Link></li>
         <li><Link to={`${r}/${process_p}`}>{process}</Link></li>
