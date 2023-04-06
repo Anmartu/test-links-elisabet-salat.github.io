@@ -66,19 +66,13 @@ useEffect(()=>{
   else arr[0] = 'ca'
 
   if(arr[0] !== input) {
-    console.log('canviii', input)
     navigate(location.pathname)
     setInput(arr[0])
-    console.log(arr[0] == input)
     cookie.set('lng', arr[0], {path: '/', maxAge: 3600*24*3600})
   } else {
     let nav = content[input].nav.map(n => n.toLowerCase())
-    console.log('nav: ', nav, 'arr: ', arr)
     let loc = nav.indexOf(arr[1].replace('%C3%A9','é').replace('%C2%B7','·').replace('%C3%AD','í'))-2
-    console.log('indexOf: ',arr[1].replace('%C3%A9','é').replace('%C2%B7','·').replace('%C3%AD','í'))
     let navItems = document.querySelectorAll('.naveg > li')
-    console.log('loc: ', loc)
-    console.log('navItems: ', navItems)
     if (arr[1]) {
       navItems[loc].classList.add('visited')
       navItems.forEach(n => {
