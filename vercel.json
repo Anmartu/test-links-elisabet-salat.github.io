@@ -3,8 +3,9 @@
     { "src": "/", "dest": "/" },
     { "src": "/es/", "dest": "/" },
     { "src": "/en/", "dest": "/" },
-    { "src": "/col%C2%B7leccions", "dest": "/" },
+    { "src": "/col·leccions", "dest": "/" },
     { "src": "/en/collections", "dest": "/" },
-    { "src": "/projectes", "dest": "/" }
+    { "src": "/projectes", "dest": "/" },
+    { "src": "/procés", "dest": "/" }
   ]
 }
