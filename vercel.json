@@ -3,7 +3,7 @@
     { "src": "/", "dest": "/" },
     { "src": "/es/", "dest": "/" },
     { "src": "/en/", "dest": "/" },
-    { "src": "//col\\\\·leccions", "dest": "/" },
+    { "src": "/col\\\\·leccions", "dest": "/" },
     { "src": "/en/collections", "dest": "/" },
     { "src": "/projectes", "dest": "/" },
     { "src": "/procés", "dest": "/" },
