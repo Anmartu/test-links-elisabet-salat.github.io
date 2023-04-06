@@ -6,6 +6,7 @@
     { "src": "/col·leccions", "dest": "/" },
     { "src": "/en/collections", "dest": "/" },
     { "src": "/projectes", "dest": "/" },
-    { "src": "/procés", "dest": "/" }
+    { "src": "/procés", "dest": "/" },
+    { "src": "/projectes/vi_suals", "dest": "/" }
   ]
 }
