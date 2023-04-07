@@ -49,9 +49,9 @@ export const [Home, Home_es, Home_en] = arr.map( () => {
 })
 
 export const [NoPage, NoPage_es, NoPage_en] = arr.map( () => {
-  return ({ind, lng}) => {return (
+  return () => {return (
     <>
-    <h1> 404 {ind[lng].nav[1]}</h1>
+    <h1> 404 </h1>
     </>
   )}
 })

@@ -1,47 +1,52 @@
 import content from '../assets/content.json'
 import '../stylesheets/projects_d.css'
 import { Fragment, useEffect } from 'react'
+import { useParams, useNavigate } from 'react-router-dom'
+import { NoPage } from './Home'
+import { Projects } from './Projects'
 
-let arr = ['cat', 'esp', 'eng']
+let arr = ['ca', 'es', 'en']
 export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
   return ({ind,lng, indp}) => {
+
+  let params = useParams()
+
+  console.log('indexOF params: ', indp.indexOf(params.nom))
+
+  if (indp.indexOf(params.nom) != -1) {
+
     let loc = indp.indexOf(location.pathname.split('/').pop())
-    console.log(loc)
     let arr_i = []
     for (let i = 0; i <= ind.ca.prj_i[loc]; i++) {
       arr_i.push(i)
     }
-  console.log(parseInt(arr_i.length/2), arr_i.length)
-  console.log(arr, arr_i)
-  useEffect(() => {
-    let img = document.querySelectorAll('.prj-d-img')
-    if (loc == 0) {
-      img[1].classList.add('img-2-4','img-h')
-      img[6].classList.add('img-2-4')
-      img[7].classList.add('img-1-3')
-    } 
-    else if(loc == 1) {
-      img[5].classList.add('img-2-4')
-      img[7].classList.add('img-1-3')
-      }
-    else if (loc == 2) {
-      img[0].classList.add('img-2-4')
-      img[2].classList.add('img-2-4')
-      }
-    else if (loc == 3) {
-      img[0].classList.add('img-1-3')
-      img[3].classList.add('img-2-4','img-p-r')
-      img[4].classList.add('img-1-3', 'img-h')
-    }
-    else if (loc == 4) {
-      img[0].classList.add('img-2')
-      img[6].classList.add('img-1-4')
-      img[12].classList.add('img-3-r7')
-    }
-
-
-
-  },[])
+    
+      useEffect(() => {
+        let img = document.querySelectorAll('.prj-d-img')
+        if (loc == 0) {
+          img[1].classList.add('img-2-4','img-h')
+          img[6].classList.add('img-2-4')
+          img[7].classList.add('img-1-3')
+        } 
+        else if(loc == 1) {
+          img[5].classList.add('img-2-4')
+          img[7].classList.add('img-1-3')
+          }
+        else if (loc == 2) {
+          img[0].classList.add('img-2-4')
+          img[2].classList.add('img-2-4')
+          }
+        else if (loc == 3) {
+          img[0].classList.add('img-1-3')
+          img[3].classList.add('img-2-4','img-p-r')
+          img[4].classList.add('img-1-3', 'img-h')
+        }
+        else if (loc == 4) {
+          img[0].classList.add('img-2')
+          img[6].classList.add('img-1-4')
+          img[12].classList.add('img-3-r7')
+        }
+      },[])
 
     return (
     <>
@@ -64,8 +69,15 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
  
       })}
     </div>
-
-    
     </>
-  )}
-})
+  )
+} else {
+  let navigate = useNavigate()
+  useEffect(() => {
+    let path = ind[lng].nav[3].toLowerCase()
+    navigate (`${ind[lng].nav[0]}/${path}`)
+  })
+  return <Projects ind={ind} lng={lng} />
+}
+
+}})

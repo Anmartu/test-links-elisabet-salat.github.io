@@ -1,17 +1,17 @@
 import { useState, useEffect } from 'react'
-import { Link, Route, Routes, useNavigate, Navigate, useLocation} from 'react-router-dom'
-import {Home, Home_en, Home_es, NoPage} from "./pages/Home";
-import {Collections, Collections_es, Collections_en} from "./pages/Collections";
-import {CollectionD, CollectionD_es, CollectionD_en} from "./pages/CollectionD";
-import {ProjectD, ProjectD_es, ProjectD_en} from "./pages/ProjectD";
-import {Projects, Projects_es, Projects_en} from "./pages/Projects";
-import {Process, Process_es, Process_en} from "./pages/Process";
-import {Curriculum, Curriculum_es, Curriculum_en} from "./pages/Curriculum";
-import {Contact, Contact_es, Contact_en} from "./pages/Contact";
+import { Link, Route, Routes, useNavigate, Navigate, useLocation } from 'react-router-dom'
+import { Home, Home_en, Home_es, NoPage } from "./pages/Home";
+import { Collections, Collections_es, Collections_en } from "./pages/Collections";
+import { CollectionD, CollectionD_es, CollectionD_en } from "./pages/CollectionD";
+import { ProjectD, ProjectD_es, ProjectD_en } from "./pages/ProjectD";
+import { Projects, Projects_es, Projects_en } from "./pages/Projects";
+import { Process, Process_es, Process_en } from "./pages/Process";
+import { Curriculum, Curriculum_es, Curriculum_en } from "./pages/Curriculum";
+import { Contact, Contact_es, Contact_en } from "./pages/Contact";
 import content from './assets/content.json'
 import ChangeLng from './components/ChangeLng'
 import Cookies from 'universal-cookie'
-import {Logo, Facebook, Insta } from './components/Icons'
+import { Logo, Facebook, Insta } from './components/Icons'
 import { Burger } from './components/Burger';
 
 function App() {
@@ -46,30 +46,47 @@ index_cp[0].push(item.col.map(item => item.replace(/\s/g,'-').toLowerCase()))
 
 const navigate = useNavigate()
 
-useEffect(()=>{
-  if (!navigator.cookieEnabled){
-    if (location.pathname.startsWith('/es/') && input !== 'es') {
-      document.querySelector('#select').click()
-      document.querySelectorAll('#hidden > ul > li > button')[0].click()
-    } else if (location.pathname.startsWith('/en/') && input !== 'en') {
-      document.querySelector('#select').click()
-      document.querySelectorAll('#hidden > ul > li > button')[1].click()
-    }
-  }
+// useEffect(()=>{
+//   if (!navigator.cookieEnabled){
+//     console.log('NO COOKIES')
+//     if (location.pathname.startsWith('/es/') && input !== 'es') {
+//       console.log('Es')
+//       document.querySelector('#select').click()
+//       document.querySelectorAll('#hidden > ul > li > button')[0].click()
+//     } else if (location.pathname.startsWith('/en/') && input !== 'en') {
+//       console.log('En')
+//       document.querySelector('#select').click()
+//       document.querySelectorAll('#hidden > ul > li > button')[1].click()
+//     } 
+//   }
 
-},[])
+// },[input])
 
 useEffect(()=>{
   let arr = location.pathname.split('/')
+
  
   if (arr[1] =='en' || arr[1] =='es' ) arr.shift()
   else arr[0] = 'ca'
+
+  // console.log(arr[0],input, location.pathname)
+
+  // if (!navigator.cookieEnabled){
+  //   console.log(arr[0])
+  //   if (arr[0] == 'es' && input !== 'es') {
+  //     console.log('Som a ES')
+  //   } 
+
+  // }
+  
+
 
   if(arr[0] !== input) {
     navigate(location.pathname)
     setInput(arr[0])
     cookie.set('lng', arr[0], {path: '/', maxAge: 3600*24*3600})
-  } else {
+  } 
+  if (arr[0] == input) {
     let nav = content[input].nav.map(n => n.toLowerCase())
     let loc = nav.indexOf(arr[1].replace('%C3%A9','é').replace('%C2%B7','·').replace('%C3%AD','í'))-2
     let navItems = document.querySelectorAll('.naveg > li')
@@ -83,6 +100,9 @@ useEffect(()=>{
   }
 
 })
+
+let path = location.pathname.split('/')
+// console.log('path[2]: ', path[2], path)
 
 
 return (
@@ -132,8 +152,14 @@ return (
       <Route path='/en/process' element={<Process_en ind={content} lng={'en'}/>}/>
       <Route path='/en/curriculum' element={<Curriculum_en ind={content} lng={'en'}/>}/>
       <Route path='/en/contact' element={<Contact_en ind={content} lng={'en'}/>}/>
-     
-      <Route path='*' element={ value=='es' ? <Navigate to='/es/'/> : value=='ca' ? <Navigate to='/'/> : <Navigate to='/en'/> }/>
+
+      {/* <Route path='/([c].*)' element={ <Collections /> }/> */}
+
+      <Route path='*' element={ 
+        // (value=='es' && true) ? <Navigate to='/es/proyectos'/> :  
+        value=='es' ? <Navigate to='/es/'/> :  
+        value=='en' ? <Navigate to='/en/'/> : 
+        <Navigate to='/'/> }/>
       
     </Routes>
     </div>

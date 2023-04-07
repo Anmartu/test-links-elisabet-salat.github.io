@@ -1,4 +1,4 @@
-import {useNavigate} from 'react-router-dom'
+import {useNavigate, redirect} from 'react-router-dom'
 import Cookies from 'universal-cookie'
 import content from '../assets/content.json'
 import { useState, useEffect } from 'react'
@@ -31,7 +31,7 @@ path.shift()
 if ((path[0] == 'es' || path[0] == 'en')&& path[1] !== '') {
   path.shift()
 }
-console.log(path)
+
 path = path.map(item => {
   if (item === 'en' || item ==='es') {
     item = '/' + item
@@ -40,7 +40,6 @@ path = path.map(item => {
   }
   return item.replace("%C2%B7", "·").replace("%C3%A9","é").replace("%C3%AD","í").replace("%C3%B3","ó")
 })
-
 
 
 if(path[0] == 'projectes' || path[0] == 'proyectos' || path[0] == 'projects' ){
@@ -74,13 +73,40 @@ if (loc2.length > 1){
 
 const navigate = useNavigate();
 let third = location.pathname.split('/')
+
+let array2 = ['hola', 'quetal', 0, 'aua','bye']
+let array = ['hola', 'quetal', 'bye']
+// console.log('test: ', array2.indexOf(array.pop()))
+
+// if(entries[n][lng].indexOf(third.pop()) =='-1') {
+//   console.log('lost')
+//   navigate(`${index[0]}/${index[lost]}`)
+// }
+let p = third[third.length-1]
+let test
+
+// if(entries[n][lng].indexOf(p) =='-1') {
+//   console.log('lost')
+//   test = true
+//   redirect(`${index[0]}/${index[lost]}`)
+// } else console.log('no lost: ',p )
+
 useEffect(() => {
-  
-  if (third.length > 3 || third.length > 2 && (third[1] !== 'es' && third[1]!== 'en')&& input =='ca') {
-    if(entries[n][lng].indexOf(third.pop()) =='-1') {
-      navigate(`${index[0]}/${index[lost]}`)
-    }
-  }
+  // if(test) console.log('segón lost')
+  // else console.log('segón NO-lost')
+
+// console.log(input)
+// console.log('test: ',third)
+// console.log('test: ',path)
+
+
+
+
+  // if (third.length > 3 || third.length > 2 && (third[1] !== 'es' && third[1]!== 'en')&& input =='ca') {
+  //   if(entries[n][lng].indexOf(third.pop()) =='-1') {
+  //     navigate('en/collections')
+  //   }
+  // }
 })
 
 // console.log('path',path)
@@ -95,6 +121,7 @@ useEffect(() => {
     if (loc == 0) {
       navigate(`${entries[0][i][0]}/`);
     } if ( path[0] && path[1] ){
+      console.log('aiaaia')
       navigate(`${entries[0][i][0]}/${entries[0][i][loc]}/${entries[n][i][loc2]}`);
     } if (loc > 0 && (!path[1] || path[1] == '')) {
       navigate(`${entries[0][i][0]}/${entries[0][i][loc]}`);

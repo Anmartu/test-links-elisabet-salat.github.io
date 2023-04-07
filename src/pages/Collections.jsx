@@ -17,6 +17,7 @@ export const [Collections, Collections_es, Collections_en] = arr.map(() => {
         {ind.ca.col_t.map((n,i) => {
 
         let col_p = ind[lng].col[i].replace(/\s/g,'-').toLowerCase()
+        // console.log(`${ind[lng].nav[0]}/${path}/${col_p}`)
         return (
           <li className='col-item' key={col_p}>
             <Link to={`${ind[lng].nav[0]}/${path}/${col_p}`}> 
