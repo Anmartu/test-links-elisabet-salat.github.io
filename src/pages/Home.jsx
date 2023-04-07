@@ -41,9 +41,6 @@ export const [Home, Home_es, Home_en] = arr.map( () => {
         <img className='home-img hidden-home' src="/proj/calidoscopi/calidoscopi-1.jpg"></img>
       </div>
     </div>
-
-      <div id='bg-poligon-1'> <div></div> </div>
-      <div id='bg-poligon-2'> <div></div> </div>
     </>
   )}
 })
