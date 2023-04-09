@@ -82,11 +82,10 @@ useEffect(()=>{
 
 
   if(arr[0] !== input) {
-    navigate(location.pathname)
+    // navigate(location.pathname)
     setInput(arr[0])
     cookie.set('lng', arr[0], {path: '/', maxAge: 3600*24*3600})
-  } 
-  if (arr[0] == input) {
+  } else {
     let nav = content[input].nav.map(n => n.toLowerCase())
     let loc = nav.indexOf(arr[1].replace('%C3%A9','é').replace('%C2%B7','·').replace('%C3%AD','í'))-2
     let navItems = document.querySelectorAll('.naveg > li')
