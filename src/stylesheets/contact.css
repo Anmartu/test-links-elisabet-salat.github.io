@@ -40,8 +40,12 @@
   }
 
   .cur-data:nth-child(1), .cur-data:nth-child(10), .cur-data:nth-child(20), .cur-data:nth-child(27) {
-    margin-bottom: 6px;
-}
+    margin-bottom: 5px;
+  }
+  
+  .cur-data:nth-child(10), .cur-data:nth-child(20), .cur-data:nth-child(27) {
+    margin-top: 10px;
+  }
 
 }
 
