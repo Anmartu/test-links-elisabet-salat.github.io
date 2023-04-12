@@ -35,6 +35,10 @@
     font-size: 2.2em;
   }
 
+  .cur-data {
+    line-height: 178%;
+  }
+
 }
 
 @media only screen and (max-width : 300px) {
