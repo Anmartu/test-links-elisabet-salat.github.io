@@ -355,7 +355,8 @@ body.active {
   opacity: 100%;
   transition-delay: 0.5s;
   left: 5%;
-  margin-bottom: 77px;
+  height: auto;
+  margin: 0;
 }
 
 #hidden ul li {

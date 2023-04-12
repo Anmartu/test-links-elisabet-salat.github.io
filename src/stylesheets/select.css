@@ -19,7 +19,7 @@
   height: 2px;
   width: 0;
   left: 0;
-  bottom: 0;
+  top: 39px;
   transition: 0.3s; 
 }
 
@@ -38,8 +38,8 @@
 #hidden ul {
   top: 4px;
   margin-top: 8px;
+  margin-bottom: 11px;
   padding: 0;
-  
 }
 
 #hidden ul li {

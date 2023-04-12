@@ -82,7 +82,6 @@ useEffect(()=>{
 
 
   if(arr[0] !== input) {
-    // navigate(location.pathname)
     setInput(arr[0])
     cookie.set('lng', arr[0], {path: '/', maxAge: 3600*24*3600})
   } else {
@@ -99,9 +98,6 @@ useEffect(()=>{
   }
 
 })
-
-let path = location.pathname.split('/')
-// console.log('path[2]: ', path[2], path)
 
 
 return (
@@ -152,10 +148,7 @@ return (
       <Route path='/en/curriculum' element={<Curriculum_en ind={content} lng={'en'}/>}/>
       <Route path='/en/contact' element={<Contact_en ind={content} lng={'en'}/>}/>
 
-      {/* <Route path='/([c].*)' element={ <Collections /> }/> */}
-
       <Route path='*' element={ 
-        // (value=='es' && true) ? <Navigate to='/es/proyectos'/> :  
         value=='es' ? <Navigate to='/es/'/> :  
         value=='en' ? <Navigate to='/en/'/> : 
         <Navigate to='/'/> }/>
