@@ -14,6 +14,7 @@ export const Burger = () => {
   let element = [...bar, nav, ...section, select, logo, naveg, body]
 
   burger.addEventListener('click', () => {
+    window.scrollTo(0, 0);
     element.forEach( n => n.classList.toggle('active'))
   })
 
