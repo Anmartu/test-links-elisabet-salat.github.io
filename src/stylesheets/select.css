@@ -4,7 +4,7 @@
 
 .select{
   position: relative;
-  width: 55px;
+  width: 48px;
   height: 37px;
   padding: 5px;
   flex-shrink: 0;
@@ -19,7 +19,7 @@
   height: 2px;
   width: 0;
   left: 0;
-  top: 39px;
+  top: 29px;
   transition: 0.3s; 
 }
 
@@ -77,4 +77,13 @@
   margin-left: 3px;
   transition: 0.3s;
   stroke: #000000;
+}
+
+@media only screen and (max-width : 640px) {
+  .select:after {
+    top: 39px;
+  }
+  .select{
+    width: 55px;
+  }
 }

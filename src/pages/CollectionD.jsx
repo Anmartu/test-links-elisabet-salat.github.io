@@ -117,7 +117,7 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
         }
       })
 
-      pic.addEventListener('click', () => {
+      const present = () => {
         container.classList.toggle('present')
         nextPic.classList.toggle('present')
         prevPic.classList.toggle('present')
@@ -126,7 +126,7 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
         galery.classList.toggle('hidden')
         data.classList.toggle('hidden')
         contTitle.classList.toggle('hidden')
-      })
+      }
 
       out.addEventListener('click', () => {
         container.classList.remove('present')
@@ -139,8 +139,16 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
         contTitle.classList.remove('hidden')
       })
 
-    },[])
+      const mql = matchMedia("(min-width: 640px)");
+      const applyMatchMedia = mql => {
+      if (mql.matches) pic.addEventListener('click', present)
+      else pic.removeEventListener('click', present) }
+      
+      addEventListener('resize', () => applyMatchMedia(mql))
+      if (document.readyState !== "loading") applyMatchMedia(mql)
+      else addEventListener("DOMContentLoaded", () => applyMatchMedia(mql));
 
+    },[])
 
     console.log('Correcte',ind_param.indexOf(params.nom) )
     return (

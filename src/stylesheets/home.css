@@ -93,5 +93,9 @@
   .home-img-container {
     width: 90%;
     justify-content: center;
+    height: 386px;
+  }
+  div.xarxes {
+    margin-top: 0;
   }
 }
