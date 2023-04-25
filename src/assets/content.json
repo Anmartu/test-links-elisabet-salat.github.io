@@ -4,28 +4,53 @@
     "", "Inici", "Col·leccions", "Projectes", "Procés", "Currículum", "Contacte"
     ],
     "home" : ["Benvinguts a la meva website, on podreu seguir tant l’històric com les últimes notícies entorn a la meva obra i als meus projectes pictòrics."],
-    "col" : [ "Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Filtres 2007", "Obra 2007"
+    "col" : [ "Obra 2022","Obra 2020-2021","Obra 2019","Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Estructures 2009","Obra 2008", "Filtres 2007", "Obra 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland"
     ],
     "col_t" : [
+      ["2022", [ "Camí", "Haus" ]],
+      ["2020-2021", [ "Blau","Colors 2021", "Quadríptic Art Confinat", "Amagatall", "Colors 2020"]],
+      ["2019", [ "Colors 2019", "Esclat"]],
       ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
       ["2014-2015" , [ "Missatge I", "Core", "Reconstrucció", "Nòmades" ]],
-      ["2012" , [ "Fluxe", "Ruta I", "Pensaments", "Columnes", "Portes", "Columna", "E-22", "Circuit", "Interior", "Trajectòria","Deconstrucció", "Fragilitat", "Balança", "Inicis", "Pèndol", "Tram", "Cercles", "Fonaments", "Contraris", "Sentit", "Trajecte","Nord-Sud", "Anagrama I (E)", "Anagrama II (A)", "Anagrama III (S)", "Anagrama IV (L)", "Anagrama V (A)", "Anagrama VI (T)", "Camins","S22", "Alef", "Ruta 22"]],
-      ["2011" , [ "Papallones I", "Ales de tardor", "Collage de papallones", "Cor i ales II", "L'essència", "Empremta", "Cor i ales I", "Horitzó blau", "Vols", "Papallona verda", "El vol de la papallona", "Transparències"]],
+      ["2012-d" , [ "Fluxe", "Ruta I", "Pensaments", "Columnes", "Portes", "Columna", "E-22", "Circuit", "Interior", "Trajectòria","Deconstrucció", "Fragilitat", "Balança", "Inicis", "Pèndol", "Tram", "Cercles", "Fonaments", "Contraris", "Sentit", "Trajecte","Nord-Sud", "Anagrama I (E)", "Anagrama II (A)", "Anagrama III (S)", "Anagrama IV (L)", "Anagrama V (A)", "Anagrama VI (T)", "Camins","S22", "Alef", "Ruta 22"]],
+      ["2011-p" , [ "Papallones I", "Ales de tardor", "Collage de papallones", "Cor i ales II", "L'essència", "Empremta", "Cor i ales I", "Horitzó blau", "Vols", "Papallona verda", "El vol de la papallona", "Transparències"]],
       ["2010" , [ "Univers", "Universos", "Sense títol 1", "Sense títol 2", "Portes I", "Portes II", "Emprempta", "Calidesa", "Línia", "Quadres", "Blau", "Portes III", "Portes IV", "Portes V", "Colors", "Hemisferis"]],
-      ["2007" , [ "Butxaca", "Connexions", "Desig d'alè", "El cau", "Engany", "Enllaços", "Entrada i sortida", "Inici", "L'alè", "Metamorfosi 1", "Metamorfosi 2", "Pany", "Pissarra", "Promesa","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5"]],
-      ["2007-o" , [ "Càlid hivern", "Mar", "Mars", "Mar vermell", "Parets","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5", "Sense títol 6", "Sense títol 7", "Sense títol 8", "Sense títol 9", "Sense títol 10", "Sense títol 11", "Sense títol 12", "Sense títol 13", "Sense títol 14", "Sense títol 15", "Sense títol 16", "Sense títol 17", "Sentits"]]
+      ["2009-e", [ "WO", "Confusió", "Parets", "Inici", "Sense títol 1", "W", "Estructura vermella", "Barroc", "Sense títol 2", "Estructures II", "Cultura", "Estructures I", "Negre", "Etiquetes" ]],
+      ["2008", [ "40", "A on anem", "On som", "Ara", "Carta", "DW", "Contraris", "Engranatges", "Esquerda", "Excavacions", "Mapa", "Memòries", "Records", "Sense títol 1", "Paret descrostada", "Dualitat", "1-2 arc", "Nord-sud", "Sense títol 2", "Sense títol 3", "Somni", "Somnis", "Societat", "Utopia", "Troballes", "X", "Enfrontament"  ]],
+      ["2007-f" , [ "Butxaca", "Connexions", "Desig d'alè", "El cau", "Engany", "Enllaços", "Entrada i sortida", "Inici", "L'alè", "Metamorfosi 1", "Metamorfosi 2", "Pany", "Pissarra", "Promesa","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5"]],
+      ["2007" , [ "Càlid hivern", "Mar", "Mars", "Mar vermell", "Parets","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5", "Sense títol 6", "Sense títol 7", "Sense títol 8", "Sense títol 9", "Sense títol 10", "Sense títol 11", "Sense títol 12", "Sense títol 13", "Sense títol 14", "Sense títol 15", "Sense títol 16", "Sense títol 17", "Sentits"]]
+      ],
+    "col_t_t" : [
+      ["2022", [ "Camí", "Haus" ]],
+      ["2020-2021", [ "Blau","Colors 2021", "Quadríptic Art Confinat", "Amagatall", "Colors 2020"]],
+      ["2019", [ "Colors 2019", "Esclat"]],
+      ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
+      ["2014-2015" , [ "Missatge I", "Core", "Reconstrucció", "Nòmades" ]],
+      ["2012-d" , [ "Fluxe", "Ruta I", "Pensaments", "Columnes", "Portes", "Columna", "E-22", "Circuit", "Interior", "Trajectòria","Deconstrucció", "Fragilitat", "Balança", "Inicis", "Pèndol", "Tram", "Cercles", "Fonaments", "Contraris", "Sentit", "Trajecte","Nord-Sud", "Anagrama I (E)", "Anagrama II (A)", "Anagrama III (S)", "Anagrama IV (L)", "Anagrama V (A)", "Anagrama VI (T)", "Camins","S22", "Alef", "Ruta 22"]],
+      ["2011-p" , [ "Papallones I", "Ales de tardor", "Collage de papallones", "Cor i ales II", "L'essència", "Empremta", "Cor i ales I", "Horitzó blau", "Vols", "Papallona verda", "El vol de la papallona", "Transparències"]],
+      ["2010" , [ "Univers", "Universos", "Sense títol 1", "Sense títol 2", "Portes I", "Portes II", "Emprempta", "Calidesa", "Línia", "Quadres", "Blau", "Portes III", "Portes IV", "Portes V", "Colors", "Hemisferis"]],
+      ["2009-e", [ "WO", "Confusió", "Parets", "Inici", "Sense títol 1", "W", "Estructura vermella", "Barroc", "Sense títol 2", "Estructures II", "Cultura", "Estructures I", "Negre", "Etiquetes" ]],
+      ["2008", [ "40", "A on anem", "On som?", "Ara", "Carta", "DW", "Contraris", "Engranatges", "Esquerda", "Excavacions", "Mapa", "Memòries", "Records", "Sense títol 1", "Paret descrostada", "Dualitat", "1/2 arc", "Nord/Sud", "Sense títol 2", "Sense títol 3", "Somni", "Somnis", "Societat?", "Utopia", "Troballes", "X", "Enfrontament"  ]],
+      ["2007-f" , [ "Butxaca", "Connexions", "Desig d'alè", "El cau", "Engany", "Enllaços", "Entrada i sortida", "Inici", "L'alè", "Metamorfosi 1", "Metamorfosi 2", "Pany", "Pissarra", "Promesa","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5"]],
+      ["2007" , [ "Càlid hivern", "Mar", "Mars", "Mar vermell", "Parets","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5", "Sense títol 6", "Sense títol 7", "Sense títol 8", "Sense títol 9", "Sense títol 10", "Sense títol 11", "Sense títol 12", "Sense títol 13", "Sense títol 14", "Sense títol 15", "Sense títol 16", "Sense títol 17", "Sentits"]]
       ],
     "col_m" : [
+      ["2022", [ "100 x 100 cm", "120 x 120 cm" ]],
+      ["2020-2021", ["100 x 100 cm","100 x 100 cm","100 x 200 cm","160 x 120 cm","160 x 120 cm"]],
+      ["2019", [ "120 x 120 cm", "160 x 120 cm"]],
       ["2016-2017", [ "100 x 100 cm", "100 x 100 cm", "100 x 100 cm", "60 x 122 cm", "50 x 70 cm", "50 x 70 cm"]],
       ["2014-2015", [ "50 x 70 cm", "175 x 110 cm", "60 x 180 cm", "100 x 100 cm"]],
       ["2012", [ "100 x 88 cm", "95 x 75 cm", "95 x 75 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm","80 x 80 cm", "60 x 80 cm", "60 x 80 cm", "60 x 80 cm", "40 x 80 cm", "40 x 80 cm", "50 x 50 cm", "50 x 50 cm", "50 x 50 cm", "50 x 70 cm", "50 x 70 cm","50 x 70 cm", "50 x 70 cm", "80 x 80 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm","20 x 20 cm", "20 x 20 cm", "120 x 60 cm", "80 x 120 cm"]],
       ["2011", [ "70 x 100 cm", "70 x 100 cm", "50 x 70 cm", "50 x 70 cm", "70 x 50 cm", "70 x 50 cm", "50 x 70 cm", "70 x 50 cm", "70 x 50 cm", "50 x 70 cm", "50 x 70 cm", "70 x 100 cm"]],
-      ["2010", [ "30 x 30 cm", "30 x 60 cm", "30 x 30 cm",
-        "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 60 cm", "50 x 50 cm"]],
-      ["2007", [ "70 x 60 cm", "50 x 70 cm", "50 x 31 cm", "40 x 40 cm", "50 x 80 cm", "30 x 30 cm", "110 x 150 cm", "29 x 39 cm", "30 x 50 cm", "42 x 32 cm", "30 x 40 cm", "33 x 455 cm", "60 x 90 cm", "55 x 80 cm","120 x 140 cm", "29 x 39 cm", "40 x 50 cm", "40 x 50 cm", "40 x 50 cm", "40 x 50 cm"]],
-      ["2007-o", [ "81 x 65 cm", "90 x 60 cm", "90 x 60 cm", "90 x 60 cm", "25 x 50 cm","60 x 30 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm (x5)"]]
+      ["2010", [ "30 x 30 cm", "30 x 60 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 60 cm", "50 x 50 cm"]],
+     
+      ["2009-e", [ "120 x 70 cm", "120 x 70 cm", "97 x 50 cm", "93 x 81 cm", "46 x 67 cm", "46 x 67 cm", "46 x 67 cm", "56 x 56 cm", "56 x 56 cm", "40 x 40 cm", "120 x 60 cm", "40 x 40 cm", "93 x 81 cm", "50 x 70 cm" ]],
+
+      ["2008", [ "180 x 50 cm", "40 x 50 cm", "50 x 60 cm", "30 x 60 cm", "46 x 46 cm", "46 x 46 cm", "30 x 30 cm", "40 x 50 cm", "30 x 60 cm", "30 x 30 cm", "60 x 180 cm", "30 x 30 cm", "30 x 30 cm", "36 x 57 cm", "30 x 30 cm", "36 x 56 cm", "36 x 56 cm", "50 x 70 cm", "38 x 46 cm", "30 x 30 cm", "40 x 50 cm", "40 x 55 cm", "29 x 42 cm", "25 x 64 cm", "30 x 30 cm", "46 x 46 cm", "77 x 58 cm"  ]],
+      ["2007-f", [ "70 x 60 cm", "50 x 70 cm", "50 x 31 cm", "40 x 40 cm", "50 x 80 cm", "30 x 30 cm", "110 x 150 cm", "29 x 39 cm", "30 x 50 cm", "42 x 32 cm", "30 x 40 cm", "33 x 455 cm", "60 x 90 cm", "55 x 80 cm","120 x 140 cm", "29 x 39 cm", "40 x 50 cm", "40 x 50 cm", "40 x 50 cm", "40 x 50 cm"]],
+      ["2007", [ "81 x 65 cm", "90 x 60 cm", "90 x 60 cm", "90 x 60 cm", "25 x 50 cm","60 x 30 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm (x5)"]]
       ],
     "m" : {
       "col_m" : [
@@ -43,6 +68,10 @@
     },
 
     "tech" : [
+      [["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta"]],
+      [["Tècnica mixta sobre fusta", "Presentat a Artistes Manresans 2020", "No disponible"],["Tècnica mixta sobre fusta", "Presentat a Artistes Manresans 2020", "No disponible"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta", "No disponible"],["Tècnica mixta sobre fusta", "No disponible"]],
+      [["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre fusta","No disponible"]],
+
       [["Tècnica mixta sobre fusta"],["Tècnica mixta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre paper"],["Tècnica mixta sobre paper","Col·lecció privada"]],
 
       [["Tècnica mixta sobre fusta","Col·lecció privada","Finalista 14è Premi BBVA Ricard Camí"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"]],
@@ -53,18 +82,24 @@
       
       [["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"], ["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"]],
 
+
+      [["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"]],
+      [["Tècnica mixta sobre fusta","Col·lecció privada"],["Llapis i ceres sobre fusta"],["Llapis i ceres sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Acrílic i tinta sobre paper","Col·lecció privada"]],
+
+
       [["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"],["Tinta sobre paper"],["Tècnica mixta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre tela i paper"],["Tècnica mixta","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta i llapis sobre paper","Col·lecció privada"],["Tècnica mixta"],["Tècnica mixta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tinta i llapis sobre paper","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta","Col·lecció privada"],["Tinta i llapis sobre paper"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"]],
 
       [["Acrílic i tinta sobre tela"],["Acrílic i tinta sobre tela"],["Tinta i grafit sobre tela"], ["Acrílic i tinta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"]]
     ],
-    "prj_i" : [ 12, 12, 6, 7, 13 ],
+    "prj_i" : [ 12, 12, 6, 7, 13, 12 ],
     "prj_d" : [
       "Els projectes són, juntament amb l’obra pictòrica, l’altre gran part de la meva activitat, on em puc permetre anar més enllà del marc.",
       [ "Vi_suals és un projecte impulsat per l'Ajuntament de Manresa i la DO del Pla del Bages. Uneix la cultura vitivinícola i la creació artística.","Aquest darrer any, el cep n'ha estat el protagonista. M'encarrego del disseny artístic (imatge de l'event, llibrets informatius...)."," El treball el realitzo sobre paper, emprant tintes i llapis. Les obres es poden veure en diferents exposicions." ],
       [ "Col·laboració especial per un oli exclusiu extret d’olives autòctones de la regió del Bages (varietat Corbella i Verdal)."," El propòsit va ser elaborar dibuixos que han sigut utilitzats per les etiquetes de les ampolles i part de l’interior de l’embalatge final." ],
       [ "Col·laboració amb el dissenyador d’interiors Josep M. Roma per pintar el sostre de la nova llibreria Sobrerroca (Manresa, Barcelona)."," També ha inclòs pintar part del mostrador i decorar l’interior amb dibuixos fets sobre fusta i reproduccions dels mateixos dibuixos a les parets i columnes de la botiga." ],
       [ "Projecte iniciat pel dissenyador d’interiors Josep M. Roma per crear pintures per decorar la nova oficina del centre podològic Dpeus (Manresa, Barcelona). Això va comportar crear el rètol, el disseny interior (portes i finestres) i la imatge corporativa."],
-      [ "Encàrrec del mural conmemoratiu del 50è aniversari de l’escola Joviat (Manresa, Barcelona).", "L’encàrrec va ser basat en obra lliure. No hi havia motiu, però si un condicionant: cada un dels 250 treballadors de l’escola havia d’endur-se una part del mural. Conceptualment, vaig treballar sobre una obra que amb la suma de “moltes parts” composesin un “tot” . El resultat van ser 250 quadres de 10 x 10 cm treballats sobre fusta i enmarcats individualment com a peça única." ]
+      [ "Encàrrec del mural conmemoratiu del 50è aniversari de l’escola Joviat (Manresa, Barcelona).", "L’encàrrec va ser basat en obra lliure. No hi havia motiu, però si un condicionant: cada un dels 250 treballadors de l’escola havia d’endur-se una part del mural. Conceptualment, vaig treballar sobre una obra que amb la suma de “moltes parts” composesin un “tot” . El resultat van ser 250 quadres de 10 x 10 cm treballats sobre fusta i enmarcats individualment com a peça única." ],
+      [ "Decoració pictòrica de l'empresa holandesa Waterland a la seva seu de Barcelona , en un edifici de l'Eixample.", "Encàrrec de Maria Nayach , arquitecta i interiorista.","Obra sobre fusta i paper." ]
     ],
     "process" : [
       "M’agrada treballar sobre diferents formats, tant pel que fa a la mida com al suport. Als meus inicis, vaig emprar el paper de diferents gramatges. Després va venir la tela i, en els últims anys, he utilitzat més la fusta com a base de les meves obres. Cada suport m’obre diferents possibilitats, tant a nivell cromàtic com tècnic.", 
@@ -126,13 +161,18 @@
   "es" : {
     "nav" : [ "/es", "Inicio", "Colecciones", "Proyectos", "Proceso", "Currículum", "Contacto"
     ],
-    "col" : [ "Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Filtres 2007", "Obra 2007"
+    
+    "col" : [ "Obra 2022","Obra 2021","Obra 2019","Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Estructures 2009", "Obra 2008", "Filtres 2007", "Obra 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland"
     ],
     "home" : ["Bienvenidos a mi website, donde podrán seguir tanto el histórico como las últimas novedades sobre mi obra y mis proyectos pictóricos."],
 
     "tech" : [
+      [["Técnica mixta sobre tela"],["Técnica mixta sobre madera"]],
+      [["Técnica mixta sobre madera", "Presentado a Artistes Manresans 2020", "No disponible"],["Técnica mixta sobre madera", "Presentado a Artistes Manresans 2020", "No disponible"],["Técnica mixta sobre tela"],["Técnica mixta sobre madera", "No disponible"],["Técnica mixta sobre madera", "No disponible"]],
+      [["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre madera","No disponible"]],
+
       [["Técnica mixta sobre madera"],["Técnica mixta","Colección privada"],["Técnica mixta sobre madera","Colección privada"], ["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre papel"],["Técnica mixta sobre papel","Colección privada"]],
 
       [["Técnica mixta sobre madera","Colección privada","Finalista 14º Premio BBVA Ricard Camí"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera", "Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera"]],
@@ -142,6 +182,11 @@
       [["Collage, tintas y lápiz sobre papel"],["Collage, tintas y lápiz sobre papel"],["Collage, tintas y lápiz sobre papel japonés"],["Collage, tintas y lápiz sobre papel"], ["Collage, tintas y lápiz sobre papel","Colección privada"],["Collage, tintas y lápiz sobre papel"],["Collage, tintas y lápiz sobre papel"],["Collage, tintas y lápiz sobre papel"],["Collage, tintas y lápiz sobre papel"],["Collage, tintas y lápiz sobre papel","Colección privada"],["Collage, tintas y lápiz sobre papel","Colección privada"],["Collage, tintas y lápiz sobre papel","Colección privada"]],
      
       [["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"], ["Técnica mixta sobre madera"],["Técnica mixta sobre madera"] , ["Técnica mixta sobre madera","Colección privada"], ["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"], [ "Técnica mixta sobre madera"], ["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"]],
+
+
+      [["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera" ,"Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera "],["Técnica mixta sobre madera"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera","Colección privada"]],
+      [["Técnica mixta sobre madera","Colección privada"],["Lápices y ceras sobre madera"],["Lápices y ceras sobre madera"],["Técnica mixta sobre madera","Colección privada "],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"] ,["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Colección privada"] ,["Técnica mixta sobre madera"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera"],["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre madera","Col· elección privada"],["Técnica mixta sobre madera","Colección privada"],["Acrílico y tinta sobre papel","Colección privada"]],
+
 
       [["Técnica mixta sobre madera"],["Técnica mixta sobre tela"],["Tinta sobre papel"],["Técnica mixta"],["Técnica mixta sobre madera","Colección privada"], ["Técnica mixta sobre tela y papel"],["Técnica mixta","Colección privada"],["Tinta sobre papel","Colección privada"],["Tinta y lápiz sobre papel"," Colección privada"],["Técnica mixta"],["Técnica mixta","Colección privada"],["Técnica mixta sobre madera"],["Tinta y lápiz sobre papel","Colección privada"],["Técnica mixta sobre madera"],["Técnica mixta","Colección privada"],["Tinta y lápiz sobre papel"],["Tinta sobre papel","Colección privada" ],["Tinta sobre papel","Colección privada"],["Tinta sobre papel","Colección privada"],["Tinta sobre papel","Colección privada"]],
 
@@ -153,7 +198,8 @@
       [ "Colaboración especial para un aceite exclusivo extraído de aceitunas autóctonas de la región del Bages (variedad Corbella y Verdal).","El propósito fue elaborar dibujos que han sido utilizados para las etiquetas de las botellas y parte del interior del embalaje final." ],
       [ "Colaboración con el diseñador de interiores José M. Roma para pintar el techo de la nueva librería Sobrerroca (Manresa, Barcelona).","También ha incluido pintar parte del mostrador y decorar el interior con dibujos hechos sobre madera y reproducciones de los mismos dibujos en las paredes y columnas de la tienda." ],
       [ "Proyecto iniciado por el diseñador de interiores José M. Roma para crear pinturas para decorar la nueva oficina del centro podológico Dpeus (Manresa, Barcelona). Esto conllevó crear el rótulo, el diseño interior (puertas y ventanas) y la imagen corporativa."],
-      [ "Encargo del mural conmemorativo del 50 aniversario de la escuela Joviat (Manresa, Barcelona).", "El encargo fue basado en obra libre. No había motivo, pero si un condicionante: cada uno de los 250 trabajadores de la escuela debía llevarse una parte del mural. Conceptualmente, trabajé sobre una obra que con la suma de “muchas partes” compongan un “todo” El resultado fueron 250 cuadros de 10 x 10 cm trabajados sobre madera y enmarcados individualmente como pieza única." ]
+      [ "Encargo del mural conmemorativo del 50 aniversario de la escuela Joviat (Manresa, Barcelona).", "El encargo fue basado en obra libre. No había motivo, pero si un condicionante: cada uno de los 250 trabajadores de la escuela debía llevarse una parte del mural. Conceptualmente, trabajé sobre una obra que con la suma de “muchas partes” compongan un “todo” El resultado fueron 250 cuadros de 10 x 10 cm trabajados sobre madera y enmarcados individualmente como pieza única." ],
+      [ "Decoración pictórica de la empresa holandesa Waterland en su sede de Barcelona , en un edificio del Eixample.", "Encargo de Maria Nayach , arquitecta e interiorista.","Obra sobre madera y papel." ]
       ],
     "process" : [
       "Me gusta trabajar sobre diferentes formatos, tanto en cuanto a tamaño como al soporte. En mis inicios, empleé el papel de diferentes gramajes. Después vino la tela y, en los últimos años, he utilizado más la madera como base de mis obras. Cada soporte me abre diferentes posibilidades, tanto a nivel cromático como técnico.", 
@@ -215,12 +261,16 @@
     "nav" : [ "/en", "Home", "Collections", "Projects", "Process", "Curriculum", "Contact"
     ],
     "home" : ["Welcome to my website, where you can find both my past and most recent artwork and projects."],
-    "col" : [ "Artwork 2016-2017", "Artwork 2014-2015", "Dos a dos 2012","Papallones 2011", "Artwork 2010", "Filtres 2007", "Artwork 2007"
+    "col" : [ "Artwork 2022","Artwork 2021","Artwork 2019","Artwork 2016-2017", "Artwork 2014-2015", "Dos a dos 2012","Papallones 2011", "Artwork 2010", "Estructures 2009","Artwork 2008", "Filtres 2007", "Artwork 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland"
     ],
 
     "tech" : [
+      [["Mixed media on canvas"],["Mixed media on wood"]],
+      [["Mixed media on wood", "Presented to Artistes Manresans 2020", "Not available"],["Mixed media on wood", "Presented to Artistes Manresans 2020", "Not available"],["Mixed media on canvas"],["Mixed media on wood", "Not available"],["Mixed media on wood", "Not available"]],
+      [["Mixed media on wood","Not available"],["Mixed media on wood","Not available"]],
+
       [["Mixed media on wood"],["Mixed media","Private collection"],["Mixed media on wood","Private collection"], ["Mixed media on wood","Private collection"], ["Mixed media on paper"],["Mixed media on paper","Private collection"]],
 
       [["Mixed media on wood","Private collection","BBVA Ricard Camí 14 Award Finalist"],["Mixed media on wood","Private collection"],["Mixed media on wood", "Private collection" ],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood"]],
@@ -230,6 +280,12 @@
       [["Collage, ink and pencil on paper"],["Collage, ink and pencil on paper"],["Collage, ink and pencil on Japanese paper"],["Collage, ink and pencil on paper"], ["Collage, ink and pencil on paper","Private collection"],["Collage, ink and pencil on paper"],["Collage, ink and pencil on paper"],["Collage, ink and pencil on paper "],["Collage, ink and pencil on paper"],["Collage, ink and pencil on paper","Private collection"],["Collage, ink and pencil on paper","Private collection"],[ "Collage, ink and pencil on paper","Private collection"]],
     
       [["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"], ["Mixed media on wood"],["Mixed media on wood"] , ["Mixed media on wood","Private collection"], ["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"], [ "Mixed media on wood"], [" Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"]],
+
+
+      [["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood "],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"]],
+
+       [["Mixed media on wood","Private collection"],["Pencil and wax on wood"],["Pencil and wax on wood"],["Mixed media on wood","Private collection "],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"] ,["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"] ,["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood "],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Coll· private collection"],["Mixed media on wood","Private collection"],["Acrylic and ink on paper","Private collection"]],
+
 
       [["Mixed media on wood"],["Mixed media on canvas"],["Ink on paper"],["Mixed media"],["Mixed media on wood","Private collection"], [" Mixed media on canvas and paper"],["Mixed media","Private collection"],["Ink on paper","Private collection"],["Ink and pencil on paper","Private collection"],[ "Mixed media"],["Mixed media","Private collection"],["Mixed media on wood"],["Ink and pencil on paper","Private collection"],["Mixed media on wood"] ,["Mixed media","Private collection"],["Ink and pencil on paper"],["Ink on paper","Private collection" ],["Ink on paper","Private collection"],[ "Ink on paper","Private collection"],["Ink on paper","Private collection"]],
 
@@ -242,7 +298,8 @@
       [ "Special collaboration for an exclusive oil from olives (Corbella and Verdal varieties) indigenous to the region where I live.","The proposal was that I make paintings to be used for the labels of the bottles and part of the interior of the final packaging." ],
       [ "This new collaboration with the interior designer Josep M. Roma involved painting the ceiling of the new bookshop Sobrerroca (Manresa, Barcelona).","It also included painting a part of the showcase and decorating the interior with paintings on a wood base and reproductions of these same paintings on the walls and columns of the shop." ],
       [ "Project initiated by the interior designer Josep M. Roma to create paintings to decorate the new podiatrist’s office Dpeus (Manresa, Barcelona). This included creating the sign, the interior design images (doors and lighting) and the corporate identity."],
-      [ "Commissioned by the Joviat Institute (Manresa, Barcelona) to celebrate its 50th anniversary.", "Although there was no specific theme, there was one condition: that each of the 250 workers receive a part of the mural. This piece was a conceptual one in which the sum of the parts made a whole. The result was 250 10x10cm paintings on wood, individually framed." ]
+      [ "Commissioned by the Joviat Institute (Manresa, Barcelona) to celebrate its 50th anniversary.", "Although there was no specific theme, there was one condition: that each of the 250 workers receive a part of the mural. This piece was a conceptual one in which the sum of the parts made a whole. The result was 250 10x10cm paintings on wood, individually framed." ],
+      ["Pictorial decoration of the Dutch company Waterland at its headquarters in Barcelona.", "Commission by Maria Nayach, architect and interior designer.","Media on wood and paper." ]
     ],
     "process" : [
       "I enjoy working with different formats, different sizes as well as different materials. In my early days, I used different weight paper, then moved on to canvas, and in recent years, I have often used wood as a base for my art. Each material gives me different possibilities, both technically and color-wise.", 

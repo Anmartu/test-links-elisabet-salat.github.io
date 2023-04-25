@@ -30,7 +30,7 @@ export const PicsCol = ({ele, setele}) => {
     let cb = 0;
     let limit;
 
-    if ((img.length/ele+'').split('.')[1]) limit = parseInt(img.length/ele)
+    if ((img.length / ele + '').split('.')[1]) limit = parseInt(img.length/ele)
     else limit = parseInt(img.length/ele) - 1
   
     for (let i = 0; i < limit + 1; i++) {

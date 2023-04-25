@@ -24,7 +24,8 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
       loc.pop()
     }
 
-    let col_d = ind.ca.col_t[loc][1].map(item => item.replace('%20',' ').replace('%C3%A8','è').replace('%C3%AD', 'í') )
+    let col_t = ind.ca.col_t[loc][1].map(item => item.replace('%20',' ').replace('%C3%A8','è').replace('%C3%AD', 'í'))
+    let col_t_t = ind.ca.col_t_t[loc][1].map(item => item.replace('%20',' ').replace('%C3%A8','è').replace('%C3%AD', 'í'))
     let col_m = ind.ca.col_m[loc][1]
     let tech = ind[lng].tech[loc]
 
@@ -50,13 +51,14 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
       
       img.forEach(n => {
         n.addEventListener('click', e => {
+          
           pic.src=n.src
           c = e.target.getAttribute("v")
-
-          colTitle.innerHTML=`${col_d[c]}`
+  
+          colTitle.innerHTML=`${col_t_t[c]}`
           data.innerHTML = `<p>${col_m[c]}</p>`
           tech[c].forEach(n =>data.innerHTML += `<p>${n}</p>`)
-          num.innerHTML=`${parseInt(e.target.getAttribute("v"))+1} / ${col_d.length}`
+          num.innerHTML=`${parseInt(e.target.getAttribute("v"))+1} / ${col_t.length}`
           
           if(c > 0) {
             prevPic.classList.remove('arrow-hidden')
@@ -76,19 +78,18 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
         })
       })
 
+
       nextPic.addEventListener('click', e => {
         if(c != img.length-1) {
           c++
           pic.src=img[c].src
-          colTitle.innerHTML=`${col_d[c]}`
+          colTitle.innerHTML=`${col_t_t[c]}`
           data.innerHTML = `<p>${col_m[c]}</p>`
           tech[c].forEach(n =>data.innerHTML += `<p>${n}</p>`)
-          num.innerHTML=`${c+1} / ${col_d.length}`
-          if (c != 0 && c!= img.length-1) {
-            prevPic.classList.remove('arrow-hidden')
-          } else {
-            nextPic.classList.add('arrow-hidden')
-          }
+          num.innerHTML=`${c+1} / ${col_t.length}`
+
+          prevPic.classList.remove('arrow-hidden')
+          if (c == img.length-1) nextPic.classList.add('arrow-hidden')
           
           divImg.forEach((n,i) => {
             if (i == c) n.classList.add('border')
@@ -100,20 +101,19 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
       prevPic.addEventListener('click', () => {
         if (c != 0) {
           c--
-        pic.src=img[c].src
-        colTitle.innerHTML=`${col_d[c]}`
-        data.innerHTML = `<p>${col_m[c]}</p>`
-        tech[c].forEach(n =>data.innerHTML += `<p>${n}</p>`)
-        num.innerHTML=`${c+1} / ${col_d.length}`
-        if (c == 0) {
-          prevPic.classList.add('arrow-hidden')
-        } else if(c < img.length-1){
+          pic.src=img[c].src
+          colTitle.innerHTML=`${col_t_t[c]}`
+          data.innerHTML = `<p>${col_m[c]}</p>`
+          tech[c].forEach(n => data.innerHTML += `<p>${n}</p>`)
+          num.innerHTML=`${c+1} / ${col_t.length}`
+
           nextPic.classList.remove('arrow-hidden')
-        }
-        divImg.forEach((n,i) => {
-        if (i == c) n.classList.add('border')
-        else n.classList.remove('border')
-        })
+          if (c == 0) prevPic.classList.add('arrow-hidden')
+          
+          divImg.forEach((n,i) => {
+          if (i == c) n.classList.add('border')
+          else n.classList.remove('border')
+          })
         }
       })
 
@@ -150,7 +150,7 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
 
     },[])
 
-    console.log('Correcte',ind_param.indexOf(params.nom) )
+
     return (
       <>
       
@@ -160,8 +160,8 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
     
       <div className='col-d'>
       <div className='container-title-col'>
-              <h2 className='title-col-d'>{col_d[0]}</h2>
-              <span>1 / {col_d.length}</span>
+              <h2 className='title-col-d'>{col_t_t[0]}</h2>
+              <span>1 / {col_t.length}</span>
             </div>
     
         <div className='col-pic-d'>
@@ -172,7 +172,7 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
           <div className='galeria-whole'>
           <div className='container-pic-col'>
             
-            <img className='col-pic' src={`/col/${ind.ca.col_t[loc][0]}/${col_d[0]}.jpg`} alt="" />
+            <img className='col-pic' src={`/col/${ind.ca.col_t[loc][0]}/${col_t[0]}.jpg`} alt="" />
             <div className='out-pic'><div></div><div></div></div>
             <div className='data'>
             <p>{col_m[0]}</p>
@@ -183,7 +183,7 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
           <div className='galery-container'>
             <div className='galery'>
               <div className='img-col-select'>
-              {col_d.map((item, i) => {      
+              {col_t.map((item, i) => {      
                   return (
                     <div key={item} className={`img-col ${i==0 ? 'border' : i >= ele ? 'hidden-img' : ''}`.trimEnd()} >
                     <img v={i} width='115' height='115' src={`/col/${ind.ca.col_t[loc][0]}/${item}.jpg`} alt="" />
