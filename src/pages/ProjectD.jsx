@@ -44,6 +44,9 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
           img[6].classList.add('img-1-4')
           img[12].classList.add('img-3-r7')
         }
+        else if (loc == 5) {
+          img[5].classList.add('img-2-4','img-h')
+        }
       },[])
 
     return (

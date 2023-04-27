@@ -30,7 +30,9 @@
 }
 
 .proc-par:nth-child(1), .proc-par:nth-child(3) {
-  background: #cad0ff;
+  /* background: #cad0ff; */
+  /* background: #d9a2a0; */
+  background: #e5b29a;
 }
 .proc-par:nth-child(3) img {
   object-position: -86px;

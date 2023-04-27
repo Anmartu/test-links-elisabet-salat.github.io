@@ -36,8 +36,8 @@
   transition: 3s;
 }
 
-.home-img:nth-child(1)::after {
-  content: 'Hola';
+.home-img:nth-child(2) {
+  /* object-position: -266px; */
 }
 
 .hidden-home {

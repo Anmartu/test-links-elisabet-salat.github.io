@@ -5,7 +5,8 @@
 }
 
 body{
-  background: aliceblue;
+  /* background: aliceblue; */
+  background: #f3ebdd;
   /* background-image: url('/col/2014-2015/Nòmades.jpg');
   background-size: cover; */
 }
@@ -265,6 +266,7 @@ color:#34d7f1;
   .nav, .xarxes, #credits div {
     width: 97%;
   }
+  
   div.select:hover:after {
     width: auto;
   }
@@ -288,7 +290,7 @@ color:#34d7f1;
   }
   .xarxes a:hover .icon {
     fill: black;
-}
+  }
 }
 
 @media only screen and (max-width : 640px) {
