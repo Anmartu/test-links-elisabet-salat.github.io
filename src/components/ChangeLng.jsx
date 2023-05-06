@@ -121,7 +121,6 @@ useEffect(() => {
     if (loc == 0) {
       navigate(`${entries[0][i][0]}/`);
     } if ( path[0] && path[1] ){
-      console.log('aiaaia')
       navigate(`${entries[0][i][0]}/${entries[0][i][loc]}/${entries[n][i][loc2]}`);
     } if (loc > 0 && (!path[1] || path[1] == '')) {
       navigate(`${entries[0][i][0]}/${entries[0][i][loc]}`);

@@ -10,7 +10,7 @@ export const [Curriculum, Curriculum_es, Curriculum_en] = arr.map(() => {
       <div className='curr-data-container'>
         {ind[lng].curriculum.map((n,i) => <p className='cur-data' key={i}>{n}</p>)}
       </div>
-      <img className='cur-img' src="/curr/curr-1.jpg" alt="curriculum-img" />
+      <img className='cur-img' src="/curr/curr-1.jpg" alt="Curriculum" />
     </div>
     </>
   )}

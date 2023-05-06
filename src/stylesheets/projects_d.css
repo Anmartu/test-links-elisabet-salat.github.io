@@ -72,6 +72,10 @@
   grid-row: 7;
 }
 
+.img-a-r {
+  object-position: right;
+}
+
 @media only screen and (max-width: 870px) {
   .prj-d-data p {
     width: 100%;

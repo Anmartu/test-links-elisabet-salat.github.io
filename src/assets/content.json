@@ -11,7 +11,7 @@
     "col_t" : [
       ["2022", [ "Camí", "Haus" ]],
       ["2020-2021", [ "Blau","Colors 2021", "Quadríptic Art Confinat", "Amagatall", "Colors 2020"]],
-      ["2019", [ "Colors 2019", "Esclat"]],
+      ["2019", [ "Colors 2019", "Esclat", "Aura"]],
       ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
       ["2014-2015" , [ "Missatge I", "Core", "Reconstrucció", "Nòmades" ]],
       ["2012-d" , [ "Fluxe", "Ruta I", "Pensaments", "Columnes", "Portes", "Columna", "E-22", "Circuit", "Interior", "Trajectòria","Deconstrucció", "Fragilitat", "Balança", "Inicis", "Pèndol", "Tram", "Cercles", "Fonaments", "Contraris", "Sentit", "Trajecte","Nord-Sud", "Anagrama I (E)", "Anagrama II (A)", "Anagrama III (S)", "Anagrama IV (L)", "Anagrama V (A)", "Anagrama VI (T)", "Camins","S22", "Alef", "Ruta 22"]],
@@ -25,7 +25,7 @@
     "col_t_t" : [
       ["2022", [ "Camí", "Haus" ]],
       ["2020-2021", [ "Blau","Colors 2021", "Quadríptic Art Confinat", "Amagatall", "Colors 2020"]],
-      ["2019", [ "Colors 2019", "Esclat"]],
+      ["2019", [ "Colors 2019", "Esclat", "Aura"]],
       ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
       ["2014-2015" , [ "Missatge I", "Core", "Reconstrucció", "Nòmades" ]],
       ["2012-d" , [ "Fluxe", "Ruta I", "Pensaments", "Columnes", "Portes", "Columna", "E-22", "Circuit", "Interior", "Trajectòria","Deconstrucció", "Fragilitat", "Balança", "Inicis", "Pèndol", "Tram", "Cercles", "Fonaments", "Contraris", "Sentit", "Trajecte","Nord-Sud", "Anagrama I (E)", "Anagrama II (A)", "Anagrama III (S)", "Anagrama IV (L)", "Anagrama V (A)", "Anagrama VI (T)", "Camins","S22", "Alef", "Ruta 22"]],
@@ -39,7 +39,7 @@
     "col_m" : [
       ["2022", [ "100 x 100 cm", "120 x 120 cm" ]],
       ["2020-2021", ["100 x 100 cm","100 x 100 cm","100 x 200 cm","160 x 120 cm","160 x 120 cm"]],
-      ["2019", [ "120 x 120 cm", "160 x 120 cm"]],
+      ["2019", [ "120 x 120 cm", "160 x 120 cm", "160 x 120 cm"]],
       ["2016-2017", [ "100 x 100 cm", "100 x 100 cm", "100 x 100 cm", "60 x 122 cm", "50 x 70 cm", "50 x 70 cm"]],
       ["2014-2015", [ "50 x 70 cm", "175 x 110 cm", "60 x 180 cm", "100 x 100 cm"]],
       ["2012", [ "100 x 88 cm", "95 x 75 cm", "95 x 75 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm","80 x 80 cm", "60 x 80 cm", "60 x 80 cm", "60 x 80 cm", "40 x 80 cm", "40 x 80 cm", "50 x 50 cm", "50 x 50 cm", "50 x 50 cm", "50 x 70 cm", "50 x 70 cm","50 x 70 cm", "50 x 70 cm", "80 x 80 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm","20 x 20 cm", "20 x 20 cm", "120 x 60 cm", "80 x 120 cm"]],
@@ -70,7 +70,7 @@
     "tech" : [
       [["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta"]],
       [["Tècnica mixta sobre fusta", "Presentat a Artistes Manresans 2020", "No disponible"],["Tècnica mixta sobre fusta", "Presentat a Artistes Manresans 2020", "No disponible"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta", "No disponible"],["Tècnica mixta sobre fusta", "No disponible"]],
-      [["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre fusta","No disponible"]],
+      [["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre fusta"]],
 
       [["Tècnica mixta sobre fusta"],["Tècnica mixta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre paper"],["Tècnica mixta sobre paper","Col·lecció privada"]],
 
@@ -82,7 +82,6 @@
       
       [["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"], ["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"]],
 
-
       [["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"]],
       [["Tècnica mixta sobre fusta","Col·lecció privada"],["Llapis i ceres sobre fusta"],["Llapis i ceres sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Acrílic i tinta sobre paper","Col·lecció privada"]],
 
@@ -91,7 +90,7 @@
 
       [["Acrílic i tinta sobre tela"],["Acrílic i tinta sobre tela"],["Tinta i grafit sobre tela"], ["Acrílic i tinta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"]]
     ],
-    "prj_i" : [ 12, 12, 6, 7, 13, 12 ],
+    "prj_i" : [ 12, 12, 6, 7, 13, 16 ],
     "prj_d" : [
       "Els projectes són, juntament amb l’obra pictòrica, l’altre gran part de la meva activitat, on em puc permetre anar més enllà del marc.",
       [ "Vi_suals és un projecte impulsat per l'Ajuntament de Manresa i la DO del Pla del Bages. Uneix la cultura vitivinícola i la creació artística.","Aquest darrer any, el cep n'ha estat el protagonista. M'encarrego del disseny artístic (imatge de l'event, llibrets informatius...)."," El treball el realitzo sobre paper, emprant tintes i llapis. Les obres es poden veure en diferents exposicions." ],
@@ -140,18 +139,18 @@
       "2010 CALEIDOSCOPI. Mural 50 anys Escola JOVIAT, Manresa, Barcelona.",
       
       "PREMIS",
-      "2018 Sel·leccionada XXIX Premi Joan Vilanova de dibuix i gravat. Manresa, Barcelona.",
-      "2017 Sel·leccionada 87è Concurs-Exposició d'artistes manresans. Manresa, Barcelona.",
-      "2017 Sel·leccionada XXXI Concurs de pintura Sanvisens. Sitges, Barcelona.",
-      "2016 Sel·leccionada XXIII Premi Joan Vilanova de dibuix i  gravat. Manresa, Barcelona",
-      "2016 Sel·leccionada XXX Concurs de pintura Sanvisens. Sitges, Barcelona.",
+      "2018 Seleccionada XXIX Premi Joan Vilanova de dibuix i gravat. Manresa, Barcelona.",
+      "2017 Seleccionada 87è Concurs-Exposició d'artistes manresans. Manresa, Barcelona.",
+      "2017 Seleccionada XXXI Concurs de pintura Sanvisens. Sitges, Barcelona.",
+      "2016 Seleccionada XXIII Premi Joan Vilanova de dibuix i  gravat. Manresa, Barcelona",
+      "2016 Seleccionada XXX Concurs de pintura Sanvisens. Sitges, Barcelona.",
       "2015 Finalista 14è Premi BBVA de pintura Ricard Camí. Terrassa, Barcelona.",
-      "2015 Sel·leccionada XXIX Premi de pintura Sanvisens. Sitges, Barcelona.",
-      "2014 Sel·leccionada XXII Premi de dibuix i gravat Joan Vilanova. Manresa, Barcelona.",
-      "2014 Sel·leccionada XXVIII Premi de pintura Sanvisens. Sitges, Barcelona.",
-      "2013 Sel·leccionada XXI Premi de dibuix i gravat Joan Vilanova. Manresa, Barcelona.",
-      "2013 Sel·leccionada XXVII Premi de pintura Sanvisens. Sitges, Barcelona.",
-      "2012 Sel·leccionada XX Premi de dibuix i gravat Joan Vilanova. Manresa, Barcelona.",
+      "2015 Seleccionada XXIX Premi de pintura Sanvisens. Sitges, Barcelona.",
+      "2014 Seleccionada XXII Premi de dibuix i gravat Joan Vilanova. Manresa, Barcelona.",
+      "2014 Seleccionada XXVIII Premi de pintura Sanvisens. Sitges, Barcelona.",
+      "2013 Seleccionada XXI Premi de dibuix i gravat Joan Vilanova. Manresa, Barcelona.",
+      "2013 Seleccionada XXVII Premi de pintura Sanvisens. Sitges, Barcelona.",
+      "2012 Seleccionada XX Premi de dibuix i gravat Joan Vilanova. Manresa, Barcelona.",
       "2008 Primer Premi Artistes Manresans. Manresa, Barcelona."
     ],
     "contact" : ["Posem-nos en contacte"],
@@ -171,7 +170,7 @@
     "tech" : [
       [["Técnica mixta sobre tela"],["Técnica mixta sobre madera"]],
       [["Técnica mixta sobre madera", "Presentado a Artistes Manresans 2020", "No disponible"],["Técnica mixta sobre madera", "Presentado a Artistes Manresans 2020", "No disponible"],["Técnica mixta sobre tela"],["Técnica mixta sobre madera", "No disponible"],["Técnica mixta sobre madera", "No disponible"]],
-      [["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre madera","No disponible"]],
+      [["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre madera"]],
 
       [["Técnica mixta sobre madera"],["Técnica mixta","Colección privada"],["Técnica mixta sobre madera","Colección privada"], ["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre papel"],["Técnica mixta sobre papel","Colección privada"]],
 
@@ -269,7 +268,7 @@
     "tech" : [
       [["Mixed media on canvas"],["Mixed media on wood"]],
       [["Mixed media on wood", "Presented to Artistes Manresans 2020", "Not available"],["Mixed media on wood", "Presented to Artistes Manresans 2020", "Not available"],["Mixed media on canvas"],["Mixed media on wood", "Not available"],["Mixed media on wood", "Not available"]],
-      [["Mixed media on wood","Not available"],["Mixed media on wood","Not available"]],
+      [["Mixed media on wood","Not available"],["Mixed media on wood","Not available"],["Mixed media on wood"]],
 
       [["Mixed media on wood"],["Mixed media","Private collection"],["Mixed media on wood","Private collection"], ["Mixed media on wood","Private collection"], ["Mixed media on paper"],["Mixed media on paper","Private collection"]],
 

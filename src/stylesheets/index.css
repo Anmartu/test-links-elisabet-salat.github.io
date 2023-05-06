@@ -7,8 +7,6 @@
 body{
   /* background: aliceblue; */
   background: #f3ebdd;
-  /* background-image: url('/col/2014-2015/Nòmades.jpg');
-  background-size: cover; */
 }
 
 #linkrandom{
@@ -313,7 +311,7 @@ body.active {
 }
 
 .nav.active {
-  background-color: #b2c3f5;
+  background-color: #e5b29a;
   height: 100%;
   transition: background-color 1s;
   justify-content: space-between;

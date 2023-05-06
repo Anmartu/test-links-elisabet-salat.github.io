@@ -35,9 +35,8 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
           img[2].classList.add('img-2-4')
           }
         else if (loc == 3) {
-          img[0].classList.add('img-1-3')
           img[3].classList.add('img-2-4','img-p-r')
-          img[4].classList.add('img-1-3', 'img-h')
+          img[4].classList.add('img-a-r')
         }
         else if (loc == 4) {
           img[0].classList.add('img-2')
@@ -45,7 +44,8 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
           img[12].classList.add('img-3-r7')
         }
         else if (loc == 5) {
-          img[5].classList.add('img-2-4','img-h')
+          img[7].classList.add('img-2-4','img-h')
+          img[12].classList.add('img-2-4','img-h')
         }
       },[])
 

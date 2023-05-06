@@ -53,6 +53,7 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
         n.addEventListener('click', e => {
           
           pic.src=n.src
+          pic.alt = n.alt
           c = e.target.getAttribute("v")
   
           colTitle.innerHTML=`${col_t_t[c]}`
@@ -83,6 +84,7 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
         if(c != img.length-1) {
           c++
           pic.src=img[c].src
+          pic.alt = img[c].alt
           colTitle.innerHTML=`${col_t_t[c]}`
           data.innerHTML = `<p>${col_m[c]}</p>`
           tech[c].forEach(n =>data.innerHTML += `<p>${n}</p>`)
@@ -101,7 +103,8 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
       prevPic.addEventListener('click', () => {
         if (c != 0) {
           c--
-          pic.src=img[c].src
+          pic.src = img[c].src
+          pic.alt = img[c].alt
           colTitle.innerHTML=`${col_t_t[c]}`
           data.innerHTML = `<p>${col_m[c]}</p>`
           tech[c].forEach(n => data.innerHTML += `<p>${n}</p>`)
@@ -172,7 +175,8 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
           <div className='galeria-whole'>
           <div className='container-pic-col'>
             
-            <img className='col-pic' src={`/col/${ind.ca.col_t[loc][0]}/${col_t[0]}.jpg`} alt="" />
+            <img className='col-pic' src={`/col/${ind.ca.col_t[loc][0]}/${col_t[0]}.jpg`} alt={col_t[0]} />
+
             <div className='out-pic'><div></div><div></div></div>
             <div className='data'>
             <p>{col_m[0]}</p>
@@ -185,9 +189,11 @@ export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
               <div className='img-col-select'>
               {col_t.map((item, i) => {      
                   return (
+
                     <div key={item} className={`img-col ${i==0 ? 'border' : i >= ele ? 'hidden-img' : ''}`.trimEnd()} >
-                    <img v={i} width='115' height='115' src={`/col/${ind.ca.col_t[loc][0]}/${item}.jpg`} alt="" />
+                    <img v={i} width='115' height='115' src={`/col/${ind.ca.col_t[loc][0]}/${item}.jpg`} alt={item} />
                     </div>
+
                     )
               })}
               </div>
