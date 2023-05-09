@@ -17,8 +17,6 @@ export const [Projects, Projects_es, Projects_en] = arr.map(() => {
         return (
         <li key={prj_p} className='prj-item'>
           <Link to={`${ind[lng].nav[0]}/${path}/${prj_p}`}>
-            {/* <h2>{n}</h2> */}
-            {/* <img src={`/proj/${prj_p}/${prj_p}-1.jpg`} alt={ind.ca.prj[i]} /> */}
             <img src={`/proj/_proj/${prj_p}.jpg`} alt={ind.ca.prj[i]} />
           </Link>
         </li> ) })}

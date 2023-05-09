@@ -26,7 +26,7 @@ export const [Process, Process_es, Process_en] = arr.map(() => {
         <img width='331' height='331' className='proc-img' src="/proc/proc-2.jpg" alt="Tècnica" />
       </div>
       <div className='proc-par'>
-        <img width='331' height='331' className='proc-img' src="/proc/proc-3.jpg" alt="Temes" />
+        <img width='331' height='331' className='proc-img' src="/proc/proc-4.jpg" alt="Temes" />
         <div className='proc-p'>
           <p className='proc-text'>{ind[lng].process[4]}</p>
         </div>

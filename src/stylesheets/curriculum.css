@@ -16,12 +16,12 @@
   padding-left: 26px;
 }
 
-.cur-data:nth-child(1), .cur-data:nth-child(10),.cur-data:nth-child(20),.cur-data:nth-child(27) {
+.cur-data:nth-child(1), .cur-data:nth-child(11),.cur-data:nth-child(24),.cur-data:nth-child(33) {
   font-weight: bold;
   padding-left: 0;
 }
 
-.cur-data:nth-child(10),.cur-data:nth-child(20),.cur-data:nth-child(27) {
+.cur-data:nth-child(11),.cur-data:nth-child(24),.cur-data:nth-child(33) {
   margin-top: 7px;
 }
 
