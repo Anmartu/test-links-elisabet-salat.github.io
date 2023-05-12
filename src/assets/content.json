@@ -9,7 +9,7 @@
     "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland"
     ],
     "col_t" : [
-      ["2022", [ "Camí", "Haus" ]],
+      ["2022", [ "Camí", "Haus", "Cercle", "Traç", "Pàtina"]],
       ["2020-2021", [ "Blau","Colors 2021", "Quadríptic Art Confinat", "Amagatall", "Colors 2020"]],
       ["2019", [ "Colors 2019", "Esclat", "Aura"]],
       ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
@@ -23,7 +23,7 @@
       ["2007" , [ "Càlid hivern", "Mar", "Mars", "Mar vermell", "Parets","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5", "Sense títol 6", "Sense títol 7", "Sense títol 8", "Sense títol 9", "Sense títol 10", "Sense títol 11", "Sense títol 12", "Sense títol 13", "Sense títol 14", "Sense títol 15", "Sense títol 16", "Sense títol 17", "Sentits"]]
       ],
     "col_t_t" : [
-      ["2022", [ "Camí", "Haus" ]],
+      ["2022", [ "Camí", "Haus", "Cercle", "Traç", "Pàtina"]],
       ["2020-2021", [ "Blau","Colors 2021", "Quadríptic Art Confinat", "Amagatall", "Colors 2020"]],
       ["2019", [ "Colors 2019", "Esclat", "Aura"]],
       ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
@@ -37,7 +37,7 @@
       ["2007" , [ "Càlid hivern", "Mar", "Mars", "Mar vermell", "Parets","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5", "Sense títol 6", "Sense títol 7", "Sense títol 8", "Sense títol 9", "Sense títol 10", "Sense títol 11", "Sense títol 12", "Sense títol 13", "Sense títol 14", "Sense títol 15", "Sense títol 16", "Sense títol 17", "Sentits"]]
       ],
     "col_m" : [
-      ["2022", [ "100 x 100 cm", "120 x 120 cm" ]],
+      ["2022", [ "100 x 100 cm", "120 x 120 cm", "60 x 60 cm", "80 x 80 cm", " 50 x 50 cm"]],
       ["2020-2021", ["100 x 100 cm","100 x 100 cm","100 x 200 cm","160 x 120 cm","160 x 120 cm"]],
       ["2019", [ "120 x 120 cm", "160 x 120 cm", "160 x 120 cm"]],
       ["2016-2017", [ "100 x 100 cm", "100 x 100 cm", "100 x 100 cm", "60 x 122 cm", "50 x 70 cm", "50 x 70 cm"]],
@@ -45,49 +45,24 @@
       ["2012", [ "100 x 88 cm", "95 x 75 cm", "95 x 75 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm", "80 x 80 cm","80 x 80 cm", "60 x 80 cm", "60 x 80 cm", "60 x 80 cm", "40 x 80 cm", "40 x 80 cm", "50 x 50 cm", "50 x 50 cm", "50 x 50 cm", "50 x 70 cm", "50 x 70 cm","50 x 70 cm", "50 x 70 cm", "80 x 80 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm","20 x 20 cm", "20 x 20 cm", "120 x 60 cm", "80 x 120 cm"]],
       ["2011", [ "70 x 100 cm", "70 x 100 cm", "50 x 70 cm", "50 x 70 cm", "70 x 50 cm", "70 x 50 cm", "50 x 70 cm", "70 x 50 cm", "70 x 50 cm", "50 x 70 cm", "50 x 70 cm", "70 x 100 cm"]],
       ["2010", [ "30 x 30 cm", "30 x 60 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 60 cm", "50 x 50 cm"]],
-     
       ["2009-e", [ "120 x 70 cm", "120 x 70 cm", "97 x 50 cm", "93 x 81 cm", "46 x 67 cm", "46 x 67 cm", "46 x 67 cm", "56 x 56 cm", "56 x 56 cm", "40 x 40 cm", "120 x 60 cm", "40 x 40 cm", "93 x 81 cm", "50 x 70 cm" ]],
-
       ["2008", [ "180 x 50 cm", "40 x 50 cm", "50 x 60 cm", "30 x 60 cm", "46 x 46 cm", "46 x 46 cm", "30 x 30 cm", "40 x 50 cm", "30 x 60 cm", "30 x 30 cm", "60 x 180 cm", "30 x 30 cm", "30 x 30 cm", "36 x 57 cm", "30 x 30 cm", "36 x 56 cm", "36 x 56 cm", "50 x 70 cm", "38 x 46 cm", "30 x 30 cm", "40 x 50 cm", "40 x 55 cm", "29 x 42 cm", "25 x 64 cm", "30 x 30 cm", "46 x 46 cm", "77 x 58 cm"  ]],
       ["2007-f", [ "70 x 60 cm", "50 x 70 cm", "50 x 31 cm", "40 x 40 cm", "50 x 80 cm", "30 x 30 cm", "110 x 150 cm", "29 x 39 cm", "30 x 50 cm", "42 x 32 cm", "30 x 40 cm", "33 x 455 cm", "60 x 90 cm", "55 x 80 cm","120 x 140 cm", "29 x 39 cm", "40 x 50 cm", "40 x 50 cm", "40 x 50 cm", "40 x 50 cm"]],
       ["2007", [ "81 x 65 cm", "90 x 60 cm", "90 x 60 cm", "90 x 60 cm", "25 x 50 cm","60 x 30 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm (x5)"]]
       ],
-    "m" : {
-      "col_m" : [
-        ["2016-2017", [[361,470], [470,470], [470,470], [233,470], [358,470], [358,470]]],
-        ["2014-2015", [ [470,470], [311,470], [520,192], [470,470]]], 
-
-        
-        ["2012", [ [518,470], [520,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470],[361,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470],[361,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470], [361,470],[361,470], [361,470], [361,470], [361,470]]],
-        ["2011", [ [361,470], [361,470], [361,470], [361,470], "70 x 50 cm", "70 x 50 cm", "50 x 70 cm", "70 x 50 cm", "70 x 50 cm", "50 x 70 cm", "50 x 70 cm", "70 x 100 cm"]],
-        ["2010", [ "30 x 30 cm", "30 x 60 cm", "30 x 30 cm",
-          "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 30 cm", "30 x 60 cm", "50 x 50 cm"]],
-        ["2007", [ "70 x 60 cm", "50 x 70 cm", "50 x 31 cm", "40 x 40 cm", "50 x 80 cm", "30 x 30 cm", "110 x 150 cm", "29 x 39 cm", "30 x 50 cm", "42 x 32 cm", "30 x 40 cm", "33 x 455 cm", "60 x 90 cm", "55 x 80 cm","120 x 140 cm", "29 x 39 cm", "40 x 50 cm", "40 x 50 cm", "40 x 50 cm", "40 x 50 cm"]],
-        ["2007-o", [ "81 x 65 cm", "90 x 60 cm", "90 x 60 cm", "90 x 60 cm", "25 x 50 cm","60 x 30 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm", "20 x 20 cm (x5)"]]
-        ]
-    },
 
     "tech" : [
-      [["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta"]],
+      [["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"]],
       [["Tècnica mixta sobre fusta", "Presentat a Artistes Manresans 2020", "No disponible"],["Tècnica mixta sobre fusta", "Presentat a Artistes Manresans 2020", "No disponible"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta", "No disponible"],["Tècnica mixta sobre fusta", "No disponible"]],
       [["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre fusta"]],
-
       [["Tècnica mixta sobre fusta"],["Tècnica mixta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre paper"],["Tècnica mixta sobre paper","Col·lecció privada"]],
-
       [["Tècnica mixta sobre fusta","Col·lecció privada","Finalista 14è Premi BBVA Ricard Camí"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"]],
-
       [["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Collage sobre cartró","Col·lecció privada"],["Collage sobre cartró"],["Collage sobre paper"],["Collage sobre paper"],["Tècnica mixta sobre tela","Col·lecció privada"],["Tècnica mixta sobre tela","Col·lecció privada"],["Tècnica mixta sobre tela","Col·lecció privada"],["Tècnica mixta sobre tela","Col·lecció privada"],["Tècnica mixta sobre tela","Col·lecció privada"],["Tècnica mixta sobre tela","Col·lecció privada"],["Tècnica mixta sobre tela","Col·lecció privada"],["Tècnica mixta sobre tela","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tinta i llapis sobre paper","Col·lecció privada"]],
-
-      [["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper japonès"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper","Col·lecció privada"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper","Col·lecció privada"],["Collage, tintes i llapis sobre paper","Col·lecció privada"],["Collage, tintes i llapis sobre paper","Col·lecció privada"]],
-      
+      [["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper japonès"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper","Col·lecció privada"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper"],["Collage, tintes i llapis sobre paper","Col·lecció privada"],["Collage, tintes i llapis sobre paper","Col·lecció privada"],["Collage, tintes i llapis sobre paper","Col·lecció privada"]],      
       [["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"], ["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"]],
-
       [["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"]],
       [["Tècnica mixta sobre fusta","Col·lecció privada"],["Llapis i ceres sobre fusta"],["Llapis i ceres sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Acrílic i tinta sobre paper","Col·lecció privada"]],
-
-
       [["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"],["Tinta sobre paper"],["Tècnica mixta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre tela i paper"],["Tècnica mixta","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta i llapis sobre paper","Col·lecció privada"],["Tècnica mixta"],["Tècnica mixta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tinta i llapis sobre paper","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta","Col·lecció privada"],["Tinta i llapis sobre paper"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"]],
-
       [["Acrílic i tinta sobre tela"],["Acrílic i tinta sobre tela"],["Tinta i grafit sobre tela"], ["Acrílic i tinta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"]]
     ],
     "prj_i" : [ 12, 12, 6, 7, 13, 16 ],
@@ -177,7 +152,7 @@
     "home" : ["Bienvenidos a mi website, donde podrán seguir tanto el histórico como las últimas novedades sobre mi obra y mis proyectos pictóricos."],
 
     "tech" : [
-      [["Técnica mixta sobre tela"],["Técnica mixta sobre madera"]],
+      [["Técnica mixta sobre tela"],["Técnica mixta sobre madera"],["Técnica mixta sobre tela"],["Técnica mixta sobre madera"],["Técnica mixta sobre tela"]],
       [["Técnica mixta sobre madera", "Presentado a Artistes Manresans 2020", "No disponible"],["Técnica mixta sobre madera", "Presentado a Artistes Manresans 2020", "No disponible"],["Técnica mixta sobre tela"],["Técnica mixta sobre madera", "No disponible"],["Técnica mixta sobre madera", "No disponible"]],
       [["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre madera"]],
       [["Técnica mixta sobre madera"],["Técnica mixta","Colección privada"],["Técnica mixta sobre madera","Colección privada"], ["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre papel"],["Técnica mixta sobre papel","Colección privada"]],
@@ -274,28 +249,17 @@
     ],
 
     "tech" : [
-      [["Mixed media on canvas"],["Mixed media on wood"]],
+      [["Mixed media on canvas"],["Mixed media on wood"],["Mixed media on canvas"],["Mixed media on wood"],["Mixed media on canvas"]],
       [["Mixed media on wood", "Presented to Artistes Manresans 2020", "Not available"],["Mixed media on wood", "Presented to Artistes Manresans 2020", "Not available"],["Mixed media on canvas"],["Mixed media on wood", "Not available"],["Mixed media on wood", "Not available"]],
       [["Mixed media on wood","Not available"],["Mixed media on wood","Not available"],["Mixed media on wood"]],
-
       [["Mixed media on wood"],["Mixed media","Private collection"],["Mixed media on wood","Private collection"], ["Mixed media on wood","Private collection"], ["Mixed media on paper"],["Mixed media on paper","Private collection"]],
-
       [["Mixed media on wood","Private collection","BBVA Ricard Camí 14 Award Finalist"],["Mixed media on wood","Private collection"],["Mixed media on wood", "Private collection" ],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood"]],
-
       [["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"] ,["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection "],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],[" Collage on cardboard","Private collection"],["Collage on cardboard"],["Collage on paper"],["Collage on paper"] ,["Mixed media on canvas","Private collection"],[ "Mixed media on canvas","Private collection"],["Mixed media on canvas","Private collection"],[ "Mixed media on canvas","Private collection"],["Mixed media on canvas","Private collection"],["Mixed media on canvas","Private collection"],["Mixed media on canvas","Private collection" ],["Mixed media on canvas","Private collection"],["Mixed media on wood","Private collection"],["Ink and pencil on paper","Private collection"]],
-
       [["Collage, ink and pencil on paper"],["Collage, ink and pencil on paper"],["Collage, ink and pencil on Japanese paper"],["Collage, ink and pencil on paper"], ["Collage, ink and pencil on paper","Private collection"],["Collage, ink and pencil on paper"],["Collage, ink and pencil on paper"],["Collage, ink and pencil on paper "],["Collage, ink and pencil on paper"],["Collage, ink and pencil on paper","Private collection"],["Collage, ink and pencil on paper","Private collection"],[ "Collage, ink and pencil on paper","Private collection"]],
-    
       [["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"], ["Mixed media on wood"],["Mixed media on wood"] , ["Mixed media on wood","Private collection"], ["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"], [ "Mixed media on wood"], [" Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"]],
-
-
       [["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood "],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"]],
-
-       [["Mixed media on wood","Private collection"],["Pencil and wax on wood"],["Pencil and wax on wood"],["Mixed media on wood","Private collection "],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"] ,["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"] ,["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood "],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Coll· private collection"],["Mixed media on wood","Private collection"],["Acrylic and ink on paper","Private collection"]],
-
-
+      [["Mixed media on wood","Private collection"],["Pencil and wax on wood"],["Pencil and wax on wood"],["Mixed media on wood","Private collection "],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"] ,["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Private collection"] ,["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood "],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood"],["Mixed media on wood","Private collection"],["Mixed media on wood","Coll· private collection"],["Mixed media on wood","Private collection"],["Acrylic and ink on paper","Private collection"]],
       [["Mixed media on wood"],["Mixed media on canvas"],["Ink on paper"],["Mixed media"],["Mixed media on wood","Private collection"], [" Mixed media on canvas and paper"],["Mixed media","Private collection"],["Ink on paper","Private collection"],["Ink and pencil on paper","Private collection"],[ "Mixed media"],["Mixed media","Private collection"],["Mixed media on wood"],["Ink and pencil on paper","Private collection"],["Mixed media on wood"] ,["Mixed media","Private collection"],["Ink and pencil on paper"],["Ink on paper","Private collection" ],["Ink on paper","Private collection"],[ "Ink on paper","Private collection"],["Ink on paper","Private collection"]],
-
       [["Acrylic and ink on canvas"],["Acrylic and ink on canvas"],["Ink and graphite on canvas"], ["Acrylic and ink on canvas"],["Mixed media on canvas"], ["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],[ "Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"],["Mixed media on canvas"]]
     ],
 
