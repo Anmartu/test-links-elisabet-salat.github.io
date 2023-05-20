@@ -3,22 +3,6 @@ import '../stylesheets/collections_d.css'
 
 export const PicsCol = ({ele, setele}) => {
 
-  // const resize = () => {
-  //   if (innerWidth > 640) {
-  //     console.log('big')
-  //     setele(6)
-  //   } else {
-  //     console.log('lil')
-  //     setele(2)
-  //   }
-  // }
-  // useEffect(() => {
-  //   window.addEventListener('resize', resize)
-  //   if (document.readyState !== "loading") resize()
-  //   else window.addEventListener('DOMContentLoaded', resize)
-  // },[setele])
-
-
   useEffect(()=>{
 
     let circleList = document.querySelector('.circles')

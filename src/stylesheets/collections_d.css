@@ -350,6 +350,10 @@
     display: none;
   }
 
+  .arrow-col:hover svg, .arrow-col-pic:hover svg{
+    stroke: #000000;
+  }
+
   .galeria-whole {
     flex-direction: column;
     align-items: center;

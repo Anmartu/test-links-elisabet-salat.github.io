@@ -20,10 +20,6 @@
 .col-item:nth-child(2){
   grid-column-start: 2;
 }
-.col-item:nth-child(3){
-  /* grid-row-start: 2;
-  grid-row-end: 4; */
-}
 .col-item:nth-child(4){
   grid-row-start: 3;
   grid-column-start: 1;
@@ -68,10 +64,6 @@
   line-height: 45px;
   transition: 1s;
 }
-
-/* .col-item:hover .col-title {
-  color: #5656f9;
-} */
 
 .col-container {
   border-left: solid white 13px;

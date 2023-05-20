@@ -46,40 +46,11 @@ index_cp[0].push(item.col.map(item => item.replace(/\s/g,'-').toLowerCase()))
 
 const navigate = useNavigate()
 
-// useEffect(()=>{
-//   if (!navigator.cookieEnabled){
-//     console.log('NO COOKIES')
-//     if (location.pathname.startsWith('/es/') && input !== 'es') {
-//       console.log('Es')
-//       document.querySelector('#select').click()
-//       document.querySelectorAll('#hidden > ul > li > button')[0].click()
-//     } else if (location.pathname.startsWith('/en/') && input !== 'en') {
-//       console.log('En')
-//       document.querySelector('#select').click()
-//       document.querySelectorAll('#hidden > ul > li > button')[1].click()
-//     } 
-//   }
-
-// },[input])
-
 useEffect(()=>{
   let arr = location.pathname.split('/')
-
  
   if (arr[1] =='en' || arr[1] =='es' ) arr.shift()
   else arr[0] = 'ca'
-
-  // console.log(arr[0],input, location.pathname)
-
-  // if (!navigator.cookieEnabled){
-  //   console.log(arr[0])
-  //   if (arr[0] == 'es' && input !== 'es') {
-  //     console.log('Som a ES')
-  //   } 
-
-  // }
-  
-
 
   if(arr[0] !== input) {
     setInput(arr[0])
@@ -164,10 +135,10 @@ return (
         </div>
       <ul>
 				<li>
-          <a className='social' href="https://www.instagram.com/andreu.martorell/"><Facebook/> </a>
+          <a className='social' href="https://www.facebook.com/elisabet.salat"><Facebook/> </a>
         </li>
 				<li> 
-          <a className='social' href="https://www.facebook.com/Andreu-Martorell-101890385143452"><Insta/>  </a>
+          <a className='social' href="https://www.instagram.com/elisalat22/"><Insta/>  </a>
         </li>
 		  </ul>
       </div>
