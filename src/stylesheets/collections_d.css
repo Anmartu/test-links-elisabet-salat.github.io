@@ -68,7 +68,7 @@
 }
 
 .arrow-col:hover svg, .arrow-col-pic:hover svg{
-  stroke: #cbc2b4;
+  stroke: #c8bba7;
 }
 
 .next-col{
@@ -292,7 +292,7 @@
 }
 
 .border {
-  outline: solid #cbc2b4 12px;
+  outline: solid #c8bba7 12px;
 }
 
 
