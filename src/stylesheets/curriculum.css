@@ -27,7 +27,7 @@
 
 .cur-img {
   width: 260px;
-  border: solid 12px white;
+  /* border: solid 12px white; */
   object-fit: cover;
   aspect-ratio: 1/1.5;
   object-position: left;

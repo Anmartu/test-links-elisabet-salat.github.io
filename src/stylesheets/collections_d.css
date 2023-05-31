@@ -68,7 +68,7 @@
 }
 
 .arrow-col:hover svg, .arrow-col-pic:hover svg{
-  stroke: #d57f57;
+  stroke: #cbc2b4;
 }
 
 .next-col{
@@ -108,7 +108,7 @@
   max-width: 520px;
   user-select: none;
   cursor: pointer;
-  border: solid white 12px;
+  /* border: solid white 12px; */
   box-sizing: border-box;
 }
 
@@ -262,7 +262,7 @@
 .galery-container{
   display: flex;
   flex-direction: column;
-  padding-top: 12px;
+  /* padding-top: 12px; */
 }
 
 .galery {
@@ -292,7 +292,7 @@
 }
 
 .border {
-  outline: solid #e5b29a 12px;
+  outline: solid #cbc2b4 12px;
 }
 
 

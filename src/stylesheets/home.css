@@ -29,16 +29,12 @@
 
 .home-img {
   width: 280px;
-  border: solid 12px white;
+  /* border: solid 12px white; */
   object-fit: cover;
   position: absolute;
   height: 100%;
   transition: 3s;
 }
-
-/* .home-img:nth-child(2) {
-  object-position: -266px;
-} */
 
 .hidden-home {
   visibility: hidden;

@@ -6,7 +6,6 @@ export const Arrow = () => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.76 9.19"> <g data-name="Capa 2"> <path style={{fill: "none", strokeMiterlimit: 10, strokeWidth: "1.85px", }} d="m.65 8.54 7.23-7.23 7.23 7.23" data-name="Modo de aislamiento" /> </g></svg>
 )
 
-
 export const Facebook = () => (
   <svg width="40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.46 35.46">
     <g data-name="Capa 2">

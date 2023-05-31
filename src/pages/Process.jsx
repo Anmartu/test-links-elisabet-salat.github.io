@@ -7,7 +7,6 @@ export const [Process, Process_es, Process_en] = arr.map(() => {
 
   return ({ind,lng}) => {
 
-    // console.log(ind[lng].process)
     return (
     <>
 
