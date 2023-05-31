@@ -311,7 +311,7 @@ body.active {
 }
 
 .nav.active {
-  background-color: #e5b29a;
+  background-color: #c8bba7;
   height: 100%;
   transition: background-color 1s;
   justify-content: space-between;
