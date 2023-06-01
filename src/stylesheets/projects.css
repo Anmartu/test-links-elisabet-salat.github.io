@@ -59,7 +59,7 @@
   grid-row: 3/5;
 }
 
-.prj-item:nth-child(1)::after, .prj-item:nth-child(2)::after, .prj-item:nth-child(3)::after, .prj-item:nth-child(4)::after, .prj-item:nth-child(5)::after, .prj-item:nth-child(6)::after{
+.prj-item:nth-child(1)::after, .prj-item:nth-child(2)::after, .prj-item:nth-child(3)::after, .prj-item:nth-child(4)::after, .prj-item:nth-child(5)::after, .prj-item:nth-child(6)::after,.prj-item:nth-child(7)::after{
   content: 'Vi_suals';
   position: absolute;
   text-align: center;
@@ -74,7 +74,7 @@
   pointer-events: none;
   font-weight: 800;
 }
-.prj-item:nth-child(1):hover:after, .prj-item:nth-child(2):hover:after, .prj-item:nth-child(3):hover:after, .prj-item:nth-child(4):hover:after, .prj-item:nth-child(5):hover:after, .prj-item:nth-child(6):hover:after{
+.prj-item:nth-child(1):hover:after, .prj-item:nth-child(2):hover:after, .prj-item:nth-child(3):hover:after, .prj-item:nth-child(4):hover:after, .prj-item:nth-child(5):hover:after, .prj-item:nth-child(6):hover:after,.prj-item:nth-child(7):hover:after{
   opacity: 1;
   visibility: visible;
 }
@@ -103,6 +103,10 @@
 
 .prj-item:nth-child(6) img {
   object-position: left;
+}
+.prj-item:nth-child(7):after {
+  content: 'Clínica Patricia Correa';
+  padding-top: 20%;
 }
 
 .prj-item img {
@@ -134,7 +138,7 @@
     grid-template-rows: repeat(4, 26%);
   }
 
-  .prj-item:nth-child(1)::after, .prj-item:nth-child(2)::after, .prj-item:nth-child(3)::after, .prj-item:nth-child(4)::after, .prj-item:nth-child(5)::after, .prj-item:nth-child(6)::after {
+  .prj-item:nth-child(1)::after, .prj-item:nth-child(2)::after, .prj-item:nth-child(3)::after, .prj-item:nth-child(4)::after, .prj-item:nth-child(5)::after, .prj-item:nth-child(6)::after,.prj-item:nth-child(7)::after {
     font-size: 17px;
   }
   .prj-intro {
@@ -167,7 +171,7 @@
     width: 100%;
     object-position: left;
   }
-  .prj-item:nth-child(1):hover:after, .prj-item:nth-child(2):hover:after, .prj-item:nth-child(3):hover:after, .prj-item:nth-child(4):hover:after, .prj-item:nth-child(5):hover:after, .prj-item:nth-child(6):hover:after{
+  .prj-item:nth-child(1):hover:after, .prj-item:nth-child(2):hover:after, .prj-item:nth-child(3):hover:after, .prj-item:nth-child(4):hover:after, .prj-item:nth-child(5):hover:after, .prj-item:nth-child(6):hover:after, .prj-item:nth-child(7):hover:after{
     opacity: 0;
     visibility: hidden;
   }

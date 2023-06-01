@@ -6,7 +6,7 @@
     "home" : ["Benvinguts a la meva website, on podreu seguir tant l’històric com les últimes notícies entorn a la meva obra i als meus projectes pictòrics."],
     "col" : [ "Obra 2022","Obra 2020-2021","Obra 2019","Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Estructures 2009","Obra 2008", "Filtres 2007", "Obra 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland","Clínica Patricia Correa"
     ],
     "col_t" : [
       ["2022", [ "Camí", "Haus", "Cercle", "Traç", "Pàtina"]],
@@ -65,7 +65,7 @@
       [["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"],["Tinta sobre paper"],["Tècnica mixta"],["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre tela i paper"],["Tècnica mixta","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta i llapis sobre paper","Col·lecció privada"],["Tècnica mixta"],["Tècnica mixta","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tinta i llapis sobre paper","Col·lecció privada"],["Tècnica mixta sobre fusta"],["Tècnica mixta","Col·lecció privada"],["Tinta i llapis sobre paper"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"],["Tinta sobre paper","Col·lecció privada"]],
       [["Acrílic i tinta sobre tela"],["Acrílic i tinta sobre tela"],["Tinta i grafit sobre tela"], ["Acrílic i tinta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre tela"]]
     ],
-    "prj_i" : [ 12, 12, 6, 7, 13, 16 ],
+    "prj_i" : [ 12, 12, 6, 7, 13, 16, 8 ],
     "prj_d" : [
       "Els projectes són, juntament amb l’obra pictòrica, l’altre gran part de la meva activitat, on em puc permetre anar més enllà del marc.",
       [ "Vi_suals és un projecte impulsat per l'Ajuntament de Manresa i la DO del Pla del Bages. Uneix la cultura vitivinícola i la creació artística.","Aquest darrer any, el cep n'ha estat el protagonista. M'encarrego del disseny artístic (imatge de l'event, llibrets informatius...)."," El treball el realitzo sobre paper, emprant tintes i llapis. Les obres es poden veure en diferents exposicions." ],
@@ -73,7 +73,8 @@
       [ "Col·laboració amb el dissenyador d’interiors Josep M. Roma per pintar el sostre de la nova llibreria Sobrerroca (Manresa, Barcelona)."," També ha inclòs pintar part del mostrador i decorar l’interior amb dibuixos fets sobre fusta i reproduccions dels mateixos dibuixos a les parets i columnes de la botiga." ],
       [ "Projecte iniciat pel dissenyador d’interiors Josep M. Roma per crear pintures per decorar la nova oficina del centre podològic Dpeus (Manresa, Barcelona). Això va comportar crear el rètol, el disseny interior (portes i finestres) i la imatge corporativa."],
       [ "Encàrrec del mural conmemoratiu del 50è aniversari de l’escola Joviat (Manresa, Barcelona).", "L’encàrrec va ser basat en obra lliure. No hi havia motiu, però si un condicionant: cada un dels 250 treballadors de l’escola havia d’endur-se una part del mural. Conceptualment, vaig treballar sobre una obra que amb la suma de “moltes parts” composesin un “tot” . El resultat van ser 250 quadres de 10 x 10 cm treballats sobre fusta i enmarcats individualment com a peça única." ],
-      [ "Decoració pictòrica de l'empresa holandesa Waterland a la seva seu de Barcelona , en un edifici de l'Eixample.", "Encàrrec de Maria Nayach , arquitecta i interiorista.","Obra sobre fusta i paper." ]
+      [ "Decoració pictòrica de l'empresa holandesa Waterland a la seva seu de Barcelona , en un edifici de l'Eixample.", "Encàrrec de Maria Nayach , arquitecta i interiorista.","Obra sobre fusta i paper." ],
+      [ "Decoració pictòrica de l'espai Clínica de Medicina Estètica Dra. Patricia Correa" ]
     ],
     "process" : [
       "M’agrada treballar sobre diferents formats, tant pel que fa a la mida com al suport. Als meus inicis, vaig emprar el paper de diferents gramatges. Després va venir la tela i, en els últims anys, he utilitzat més la fusta com a base de les meves obres. Cada suport m’obre diferents possibilitats, tant a nivell cromàtic com tècnic.", 
@@ -147,7 +148,7 @@
     
     "col" : [ "Obra 2022","Obra 2021","Obra 2019","Obra 2016-2017", "Obra 2014-2015", "Dos a dos 2012","Papallones 2011", "Obra 2010", "Estructures 2009", "Obra 2008", "Filtres 2007", "Obra 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland","Clínica Patricia Correa"
     ],
     "home" : ["Bienvenidos a mi website, donde podrán seguir tanto el histórico como las últimas novedades sobre mi obra y mis proyectos pictóricos."],
 
@@ -172,8 +173,10 @@
       [ "Colaboración con el diseñador de interiores José M. Roma para pintar el techo de la nueva librería Sobrerroca (Manresa, Barcelona).","También ha incluido pintar parte del mostrador y decorar el interior con dibujos hechos sobre madera y reproducciones de los mismos dibujos en las paredes y columnas de la tienda." ],
       [ "Proyecto iniciado por el diseñador de interiores José M. Roma para crear pinturas para decorar la nueva oficina del centro podológico Dpeus (Manresa, Barcelona). Esto conllevó crear el rótulo, el diseño interior (puertas y ventanas) y la imagen corporativa."],
       [ "Encargo del mural conmemorativo del 50 aniversario de la escuela Joviat (Manresa, Barcelona).", "El encargo fue basado en obra libre. No había motivo, pero si un condicionante: cada uno de los 250 trabajadores de la escuela debía llevarse una parte del mural. Conceptualmente, trabajé sobre una obra que con la suma de “muchas partes” compongan un “todo” El resultado fueron 250 cuadros de 10 x 10 cm trabajados sobre madera y enmarcados individualmente como pieza única." ],
-      [ "Decoración pictórica de la empresa holandesa Waterland en su sede de Barcelona , en un edificio del Eixample.", "Encargo de Maria Nayach , arquitecta e interiorista.","Obra sobre madera y papel." ]
-      ],
+      [ "Decoración pictórica de la empresa holandesa Waterland en su sede de Barcelona , en un edificio del Eixample.", "Encargo de Maria Nayach , arquitecta e interiorista.","Obra sobre madera y papel." ],
+      ["Decoración pictórica del espacio Clínica de Medicina Estètica Dra. Patricia Correa"]
+      
+    ],
     "process" : [
       "Me gusta trabajar sobre diferentes formatos, tanto en cuanto a tamaño como al soporte. En mis inicios, empleé el papel de diferentes gramajes. Después vino la tela y, en los últimos años, he utilizado más la madera como base de mis obras. Cada soporte me abre diferentes posibilidades, tanto a nivel cromático como técnico.", 
       "En la obra sobre papel normalmente utilizo tintas (anilinas, tintas Seneliers ...), acrílicos y grafitos. En muchos de los cuadros hay collages de diferentes materiales. A veces, son recortes que he encontrado (prensa, cartas antiguas, tranfers de fotografías que he hecho cosas que me han atraído en algún momento) y otros son papeles más sutiles (papel japonés, chino ...).", "En cuanto a la obra sobre tela, básicamente he utilizado acrílicos, pero también grafitos y tintas. Estas pinturas son las más “matéricas”.",
@@ -245,7 +248,7 @@
     "home" : ["Welcome to my website, where you can find both my past and most recent artwork and projects."],
     "col" : [ "Artwork 2022","Artwork 2021","Artwork 2019","Artwork 2016-2017", "Artwork 2014-2015", "Dos a dos 2012","Papallones 2011", "Artwork 2010", "Estructures 2009","Artwork 2008", "Filtres 2007", "Artwork 2007"
     ],
-    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland"
+    "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland","Clínica Patricia Correa"
     ],
 
     "tech" : [
@@ -270,7 +273,8 @@
       [ "This new collaboration with the interior designer Josep M. Roma involved painting the ceiling of the new bookshop Sobrerroca (Manresa, Barcelona).","It also included painting a part of the showcase and decorating the interior with paintings on a wood base and reproductions of these same paintings on the walls and columns of the shop." ],
       [ "Project initiated by the interior designer Josep M. Roma to create paintings to decorate the new podiatrist’s office Dpeus (Manresa, Barcelona). This included creating the sign, the interior design images (doors and lighting) and the corporate identity."],
       [ "Commissioned by the Joviat Institute (Manresa, Barcelona) to celebrate its 50th anniversary.", "Although there was no specific theme, there was one condition: that each of the 250 workers receive a part of the mural. This piece was a conceptual one in which the sum of the parts made a whole. The result was 250 10x10cm paintings on wood, individually framed." ],
-      ["Pictorial decoration of the Dutch company Waterland at its headquarters in Barcelona.", "Commission by Maria Nayach, architect and interior designer.","Media on wood and paper." ]
+      ["Pictorial decoration of the Dutch company Waterland at its headquarters in Barcelona.", "Commission by Maria Nayach, architect and interior designer.","Media on wood and paper." ],
+      ["Pictorial decoration of the space Clínica de Medicina Estètica Dra. Patricia Correa"]
     ],
     "process" : [
       "I enjoy working with different formats, different sizes as well as different materials. In my early days, I used different weight paper, then moved on to canvas, and in recent years, I have often used wood as a base for my art. Each material gives me different possibilities, both technically and color-wise.", 

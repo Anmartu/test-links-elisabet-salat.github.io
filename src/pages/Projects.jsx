@@ -6,7 +6,6 @@ let arr = ['cat', 'esp', 'eng']
 export const [Projects, Projects_es, Projects_en] = arr.map(() => {
   return ({ind, lng}) => {
     let path = ind[lng].nav[3].toLowerCase()
-
     return (
     <>
     <div className='prj-container'>

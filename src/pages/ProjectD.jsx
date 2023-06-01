@@ -13,7 +13,7 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
 
   if (indp.indexOf(params.nom) != -1) {
 
-    let loc = indp.indexOf(location.pathname.split('/').pop())
+    let loc = indp.indexOf(location.pathname.split('/').pop().replace('%C3%AD','í'))
     let arr_i = []
     for (let i = 0; i <= ind.ca.prj_i[loc]; i++) {
       arr_i.push(i)
@@ -40,12 +40,15 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
         }
         else if (loc == 4) {
           img[0].classList.add('img-2')
-          img[6].classList.add('img-1-4')
+          img[6].classList.add('img-1-4','img-ar0')
           img[12].classList.add('img-3-r7')
         }
         else if (loc == 5) {
           img[7].classList.add('img-2-4','img-h')
           img[12].classList.add('img-2-4','img-h')
+        }
+        else if (loc == 6) {
+          img[3].classList.add('img-1-4','img-h')
         }
       },[])
 
@@ -63,8 +66,8 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
         
         else if (i == parseInt(arr_i.length/2)) return (
           <Fragment key='fr-1'>
-          <img key={i} className='prj-d-img' src={`/proj/${indp[loc]}/${indp[loc]}-${i}.jpg`} alt={`${indp[loc]}-img-${i}`} />
-          <img key='1' className='prj-d-img' src={`/proj/${indp[loc]}/${indp[loc]}-1.jpg`} alt={`${indp[loc]}-img-1`} /> 
+            <img key={i} className='prj-d-img' src={`/proj/${indp[loc]}/${indp[loc]}-${i}.jpg`} alt={`${indp[loc]}-img-${i}`} />
+            <img key='1' className='prj-d-img' src={`/proj/${indp[loc]}/${indp[loc]}-1.jpg`} alt={`${indp[loc]}-img-1`} /> 
           </Fragment>
         )
  
@@ -73,6 +76,7 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
     </>
   )
 } else {
+  console.log('FAIL')
   let navigate = useNavigate()
   useEffect(() => {
     let path = ind[lng].nav[3].toLowerCase()
