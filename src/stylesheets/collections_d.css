@@ -291,10 +291,24 @@
   box-sizing: border-box;
 }
 
-.border {
-  /* outline: solid #c8bba7 12px; */
-}
 
+@media only screen and (max-height : 800px) {
+
+
+  .present img {
+    max-height: 530px;
+  }
+  
+  }
+
+@media only screen and (max-height : 690px) {
+
+
+  .present img {
+    max-height: 450px;
+  }
+  
+  }
 
 @media only screen and (max-width : 1250px) {
 

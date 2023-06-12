@@ -60,6 +60,9 @@
 
 .img-1-4 {
   grid-column: 1/4;
+}
+
+.img-ar0 {
   aspect-ratio: 0;
 }
 
