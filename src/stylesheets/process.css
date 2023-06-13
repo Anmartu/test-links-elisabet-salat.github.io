@@ -1,21 +1,30 @@
 .proc-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 2%;
   margin: 0 2%;
 }
 
 .proc-par {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 25px auto;
   gap: 44px;
   height: 466px;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .proc-img {
   width: 320px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 320px;
   aspect-ratio: 1/1;
   /* border: solid white 6px; */
@@ -33,19 +42,26 @@
   background: #c8bba7;
 }
 .proc-par:nth-child(3) img {
-  object-position: -86px;
+  -o-object-position: -86px;
+     object-position: -86px;
 }
 
 @media only screen and (max-width: 900px){
   .proc-par {
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     height: auto;
     padding: 4% 0;
     gap: 14px;
   }
 
   .proc-par:nth-child(2) {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .proc-p {
@@ -71,5 +87,4 @@
   }
   
 }
-
 

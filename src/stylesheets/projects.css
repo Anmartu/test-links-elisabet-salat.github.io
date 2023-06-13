@@ -1,7 +1,11 @@
 .prj-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 210px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 5%;
 }
 
@@ -14,12 +18,97 @@
 
 .list-prj {
   padding: 0;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 230px 6px 230px 6px 230px 6px 230px;
   grid-template-columns: repeat(4, 230px);
+  -ms-grid-rows: 230px 6px 230px 6px 230px 6px 230px;
   grid-template-rows: repeat(4, 230px);
   margin-top: 0;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 6px;
+}
+
+.list-prj > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.list-prj > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.list-prj > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.list-prj > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+
+.list-prj > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.list-prj > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.list-prj > *:nth-child(7) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.list-prj > *:nth-child(8) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+
+.list-prj > *:nth-child(9) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+
+.list-prj > *:nth-child(10) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+
+.list-prj > *:nth-child(11) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+}
+
+.list-prj > *:nth-child(12) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 7;
+}
+
+.list-prj > *:nth-child(13) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+}
+
+.list-prj > *:nth-child(14) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 3;
+}
+
+.list-prj > *:nth-child(15) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 5;
+}
+
+.list-prj > *:nth-child(16) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 7;
 }
 
 .prj-item {
@@ -30,11 +119,17 @@
 }
 
 .prj-item:nth-child(1){
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-column: 1/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
   grid-row: 1/3;
 }
 
 .prj-item:nth-child(2){
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
   grid-column: 3/5;
 }
 .prj-item:nth-child(2) img{
@@ -42,18 +137,26 @@
 }
 
 .prj-item:nth-child(3){
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
   grid-column: 3/5;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
   grid-row: 3/5;
 }
 .prj-item:nth-child(4){
-  grid-row-start: 1;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
 }
 .prj-item:nth-child(4) img{
   width: 190%;
 }
 
 .prj-item:nth-child(5){
+  -ms-grid-column-span: 3;
   grid-column-end: 3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
   grid-row: 3/5;
 }
 
@@ -68,6 +171,8 @@
   padding-top: 40%;
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
   pointer-events: none;
   font-weight: 800;
@@ -100,7 +205,8 @@
 }
 
 .prj-item:nth-child(6) img {
-  object-position: left;
+  -o-object-position: left;
+     object-position: left;
 }
 .prj-item:nth-child(7):after {
   content: 'Clínica Patricia Correa';
@@ -109,7 +215,8 @@
 
 .prj-item img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 100%;
 }
 
@@ -117,14 +224,18 @@
   .prj-container {
     gap: 3%;
     margin-top: 113px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     }
   .prj-intro {
     font-size: 19px;
     width: 940px;
     margin: 0 auto 32px;
     padding-right: 490px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     }
 
 }
@@ -132,8 +243,74 @@
 
 @media only screen and (max-width : 1000px) {
   .list-prj {
+    -ms-grid-columns: (20%)[4];
     grid-template-columns: repeat(4, 20%);
+    -ms-grid-rows: (26%)[4];
     grid-template-rows: repeat(4, 26%);
+  }
+  .list-prj > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .list-prj > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }
+  .list-prj > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }
+  .list-prj > *:nth-child(4) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 4;
+  }
+  .list-prj > *:nth-child(5) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  .list-prj > *:nth-child(6) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+  }
+  .list-prj > *:nth-child(7) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+  }
+  .list-prj > *:nth-child(8) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+  }
+  .list-prj > *:nth-child(9) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  .list-prj > *:nth-child(10) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+  }
+  .list-prj > *:nth-child(11) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  .list-prj > *:nth-child(12) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 4;
+  }
+  .list-prj > *:nth-child(13) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+  .list-prj > *:nth-child(14) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 2;
+  }
+  .list-prj > *:nth-child(15) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 3;
+  }
+  .list-prj > *:nth-child(16) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 4;
   }
 
   .prj-item:nth-child(1)::after, .prj-item:nth-child(2)::after, .prj-item:nth-child(3)::after, .prj-item:nth-child(4)::after, .prj-item:nth-child(5)::after, .prj-item:nth-child(6)::after,.prj-item:nth-child(7)::after {
@@ -157,17 +334,24 @@
   }
 
   .list-prj {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 5px;
     margin: 0 5px;
     padding-top: 0;
   }
 
   .prj-item:nth-child(4) img {
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
-    object-position: left;
+    -o-object-position: left;
+       object-position: left;
   }
   .prj-item:nth-child(1):hover:after, .prj-item:nth-child(2):hover:after, .prj-item:nth-child(3):hover:after, .prj-item:nth-child(4):hover:after, .prj-item:nth-child(5):hover:after, .prj-item:nth-child(6):hover:after, .prj-item:nth-child(7):hover:after{
     opacity: 0;
