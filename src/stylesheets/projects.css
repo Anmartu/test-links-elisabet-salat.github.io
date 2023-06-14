@@ -6,7 +6,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 5%;
 }
 
 .prj-intro {
@@ -14,6 +13,7 @@
   font-size: 24px;
   line-height: 140%;
   width: 20%;
+  margin-right: 3%;
 }
 
 .list-prj {
