@@ -12,6 +12,7 @@
   height: 100%;
   display: inherit;
   aspect-ratio: 1/1;
+  margin-bottom: 10px;
 }
 
 .prj-d-data {
@@ -130,7 +131,7 @@
   }
 
   .prj-d-img-container {
-    gap: 10px;
+    gap: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
