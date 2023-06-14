@@ -341,9 +341,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 5px;
+    gap: 0px;
     margin: 0 5px;
     padding-top: 0;
+  }
+
+  .prj-item {
+    margin-bottom: 5px;
   }
 
   .prj-item:nth-child(4) img {

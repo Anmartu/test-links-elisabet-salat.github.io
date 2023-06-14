@@ -144,7 +144,6 @@
   -o-object-fit: cover;
      object-fit: cover;
   height: 60px;
-  aspect-ratio: 2/1;
   -webkit-transition: height 1s;
   -o-transition: height 1s;
   transition: height 1s;
@@ -220,7 +219,7 @@
   }
 
   .col-item img {
-    height: auto;
+    height: 43vw;
   }
 
   .col-item:hover img {
