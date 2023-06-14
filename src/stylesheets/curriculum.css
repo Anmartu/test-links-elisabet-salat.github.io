@@ -62,8 +62,7 @@
     margin-top: 55px;
   }
   .cur-img {
-    width: 85%;
-    max-width: 195px;
+    height: 50%;
   }
   
 }
@@ -79,7 +78,8 @@
     padding-left: 14px;
   }
   .cur-img {
-    height: 50%;
+    width: 85%;
+    max-width: 230px;
   }
 }
 
