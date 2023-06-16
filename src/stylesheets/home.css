@@ -37,7 +37,6 @@
 
 .home-img {
   width: 280px;
-  /* border: solid 12px white; */
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
