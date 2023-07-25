@@ -9,7 +9,7 @@
     "prj" : [ "Vi_suals", "The booc", "Sobrerroca", "Dpeus", "Calidoscopi", "Waterland","Clínica Patricia Correa"
     ],
     "col_t" : [
-      ["2022", [ "Camí", "Haus", "Cercle", "Traç", "Pàtina"]],
+      ["2022", [ "Camí", "Cercle", "Traç", "Pàtina"]],
       ["2020-2021", [ "Blau","Colors 2021", "Quadríptic Art Confinat", "Amagatall", "Colors 2020"]],
       ["2019", [ "Colors 2019", "Esclat", "Aura"]],
       ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
@@ -23,7 +23,7 @@
       ["2007" , [ "Càlid hivern", "Mar", "Mars", "Mar vermell", "Parets","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5", "Sense títol 6", "Sense títol 7", "Sense títol 8", "Sense títol 9", "Sense títol 10", "Sense títol 11", "Sense títol 12", "Sense títol 13", "Sense títol 14", "Sense títol 15", "Sense títol 16", "Sense títol 17", "Sentits"]]
       ],
     "col_t_t" : [
-      ["2022", [ "Camí", "Haus", "Cercle", "Traç", "Pàtina"]],
+      ["2022", [ "Camí", "Cercle", "Traç", "Pàtina"]],
       ["2020-2021", [ "Blau","Colors 2021", "Quadríptic Art Confinat", "Amagatall", "Colors 2020"]],
       ["2019", [ "Colors 2019", "Esclat", "Aura"]],
       ["2016-2017", [ "Life", "Senyals", "One", "Art Life", "Societat", "Lletres"]],
@@ -37,7 +37,7 @@
       ["2007" , [ "Càlid hivern", "Mar", "Mars", "Mar vermell", "Parets","Sargit", "Sense títol 1", "Sense títol 2", "Sense títol 3", "Sense títol 4", "Sense títol 5", "Sense títol 6", "Sense títol 7", "Sense títol 8", "Sense títol 9", "Sense títol 10", "Sense títol 11", "Sense títol 12", "Sense títol 13", "Sense títol 14", "Sense títol 15", "Sense títol 16", "Sense títol 17", "Sentits"]]
       ],
     "col_m" : [
-      ["2022", [ "100 x 100 cm", "120 x 120 cm", "60 x 60 cm", "80 x 80 cm", " 50 x 50 cm"]],
+      ["2022", [ "100 x 100 cm", "60 x 60 cm", "80 x 80 cm", " 50 x 50 cm"]],
       ["2020-2021", ["100 x 100 cm","100 x 100 cm","100 x 200 cm","160 x 120 cm","160 x 120 cm"]],
       ["2019", [ "120 x 120 cm", "160 x 120 cm", "160 x 120 cm"]],
       ["2016-2017", [ "100 x 100 cm", "100 x 100 cm", "100 x 100 cm", "60 x 122 cm", "50 x 70 cm", "50 x 70 cm"]],
@@ -52,7 +52,7 @@
       ],
 
     "tech" : [
-      [["Tècnica mixta sobre tela","No disponible"],["Tècnica mixta sobre fusta"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre tela"]],
+      [["Tècnica mixta sobre tela","No disponible"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre tela"]],
       [["Tècnica mixta sobre fusta", "Presentat a Artistes Manresans 2020", "No disponible"],["Tècnica mixta sobre fusta", "Presentat a Artistes Manresans 2020", "No disponible"],["Tècnica mixta sobre tela"],["Tècnica mixta sobre fusta", "No disponible"],["Tècnica mixta sobre fusta", "No disponible"]],
       [["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre fusta","No disponible"],["Tècnica mixta sobre fusta"]],
       [["Tècnica mixta sobre fusta"],["Tècnica mixta","Col·lecció privada"],["Tècnica mixta sobre fusta","Col·lecció privada"], ["Tècnica mixta sobre fusta","Col·lecció privada"],["Tècnica mixta sobre paper"],["Tècnica mixta sobre paper","Col·lecció privada"]],
@@ -153,7 +153,7 @@
     "home" : ["Bienvenidos a mi website, donde podrán seguir tanto el histórico como las últimas novedades sobre mi obra y mis proyectos pictóricos."],
 
     "tech" : [
-      [["Técnica mixta sobre tela","No disponible"],["Técnica mixta sobre madera"],["Técnica mixta sobre tela"],["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre tela"]],
+      [["Técnica mixta sobre tela","No disponible"],["Técnica mixta sobre tela"],["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre tela"]],
       [["Técnica mixta sobre madera", "Presentado a Artistes Manresans 2020", "No disponible"],["Técnica mixta sobre madera", "Presentado a Artistes Manresans 2020", "No disponible"],["Técnica mixta sobre tela"],["Técnica mixta sobre madera", "No disponible"],["Técnica mixta sobre madera", "No disponible"]],
       [["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre madera","No disponible"],["Técnica mixta sobre madera"]],
       [["Técnica mixta sobre madera"],["Técnica mixta","Colección privada"],["Técnica mixta sobre madera","Colección privada"], ["Técnica mixta sobre madera","Colección privada"],["Técnica mixta sobre papel"],["Técnica mixta sobre papel","Colección privada"]],
@@ -252,7 +252,7 @@
     ],
 
     "tech" : [
-      [["Mixed media on canvas","Not available"],["Mixed media on wood"],["Mixed media on canvas"],["Mixed media on wood","Not available"],["Mixed media on canvas"]],
+      [["Mixed media on canvas","Not available"],["Mixed media on canvas"],["Mixed media on wood","Not available"],["Mixed media on canvas"]],
       [["Mixed media on wood", "Presented to Artistes Manresans 2020", "Not available"],["Mixed media on wood", "Presented to Artistes Manresans 2020", "Not available"],["Mixed media on canvas"],["Mixed media on wood", "Not available"],["Mixed media on wood", "Not available"]],
       [["Mixed media on wood","Not available"],["Mixed media on wood","Not available"],["Mixed media on wood"]],
       [["Mixed media on wood"],["Mixed media","Private collection"],["Mixed media on wood","Private collection"], ["Mixed media on wood","Private collection"], ["Mixed media on paper"],["Mixed media on paper","Private collection"]],
