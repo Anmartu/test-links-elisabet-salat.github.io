@@ -39,11 +39,13 @@ content[input].nav.map( item => {
 
 const [,r,home,, collections, collections_p, projects, projects_p, process, process_p, curriculum, curriculum_p, contact, contact_p] = index
 
+
 let index_cp = [[],[...content.ca.prj.map(item=> item.replace(/\s/g,'-').toLowerCase())]]
 Object.entries(content).map(([,item]) => {
 index_cp[0].push(item.col.map(item => item.replace(/\s/g,'-').toLowerCase()))
 } )
 
+const navigate = useNavigate()
 
 useEffect(()=>{
   let arr = location.pathname.split('/')

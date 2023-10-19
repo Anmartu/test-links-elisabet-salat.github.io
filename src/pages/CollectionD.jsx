@@ -10,7 +10,7 @@ let arr = ['ca', 'es', 'en']
 export const [CollectionD, CollectionD_es, CollectionD_en] = arr.map(() => {
 
   return ({ ind, lng, indc}) => {
-  
+
   let params = useParams()
   let ind_param = indc[arr.indexOf(lng)]
 

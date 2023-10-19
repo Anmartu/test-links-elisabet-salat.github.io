@@ -20,13 +20,17 @@
           align-items: center;
 }
 
-.proc-img {
+.proc-img, .proc-img-r {
   width: 320px;
   -o-object-fit: cover;
      object-fit: cover;
   height: 320px;
   aspect-ratio: 1/1;
   margin-right: 44px;
+}
+
+.proc-img-r{
+  margin: 0 0 0 44px;
 }
 
 .proc-text {
@@ -56,8 +60,8 @@
     gap: 14px;
   }
 
-  .proc-img {
-    margin-right: 0;
+  .proc-img, .proc-img-r {
+    margin: 0;
   }
 
   .proc-par:nth-child(2) {

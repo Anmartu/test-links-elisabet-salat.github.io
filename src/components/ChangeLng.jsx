@@ -26,9 +26,15 @@ const ChangeLng = ({input, setInput, value, index}) => {
   })
 
   let path = window.location.pathname.split('/')
-  path.shift()
+  console.log(path)
 
-  if ((path[0] == 'es' || path[0] == 'en')&& path[1] !== '') path.shift()
+  path.shift()
+  console.log(path)
+
+
+  if ((path[0] == 'es' || path[0] == 'en') && path[1] !== '') path.shift()
+
+  console.log(path)
 
   path = path.map(item => {
     if (item === 'en' || item ==='es') item = '/' + item
@@ -52,6 +58,8 @@ const ChangeLng = ({input, setInput, value, index}) => {
   if (loc.length > 1) loc.pop()
   if (loc2.length > 1) loc2.pop()
   if (loc2.length > 1) loc2.pop()
+
+console.log(entries, loc)
 
   const navigate = useNavigate();
 

@@ -11,6 +11,8 @@ export const [ProjectD, ProjectD_es, ProjectD_en] = arr.map(() => {
 
   let params = useParams()
 
+  console.log(params)
+
   if (indp.indexOf(params.nom) != -1) {
 
     let loc = indp.indexOf(location.pathname.split('/').pop().replace('%C3%AD','í'))
