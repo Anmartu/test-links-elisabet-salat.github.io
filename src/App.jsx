@@ -44,7 +44,6 @@ Object.entries(content).map(([,item]) => {
 index_cp[0].push(item.col.map(item => item.replace(/\s/g,'-').toLowerCase()))
 } )
 
-const navigate = useNavigate()
 
 useEffect(()=>{
   let arr = location.pathname.split('/')
