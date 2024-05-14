@@ -37,6 +37,7 @@ content[input].nav.map( item => {
   index.push(item.toLowerCase())
 })
 
+
 const [,r,home,, collections, collections_p, projects, projects_p, process, process_p, curriculum, curriculum_p, contact, contact_p] = index
 
 
