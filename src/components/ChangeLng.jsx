@@ -74,7 +74,7 @@ const ChangeLng = ({input, setInput, value, index}) => {
 
   return (
     <>
-    <div className="select">{input.toUpperCase()}
+    <div className="select"><span>{input.toUpperCase()}</span>
       <Arrow/>
       <div id="hidden">
         <Select leng={input} change={change}/>
