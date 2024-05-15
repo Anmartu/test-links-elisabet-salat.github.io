@@ -4,6 +4,10 @@
   font-weight: 400;
 }
 
+font {
+  pointer-events: none
+}
+
 body{
   background: #f3ebdd;
 }

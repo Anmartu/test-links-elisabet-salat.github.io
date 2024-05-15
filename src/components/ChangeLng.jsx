@@ -25,7 +25,6 @@ const ChangeLng = ({input, setInput, value, index}) => {
     entries[2].push(item.prj.map(item => item.replace(/\s/g,'-').toLowerCase()))
   })
 
-  console.log(location.pathname.split('/'))
 
   let path = window.location.pathname.split('/')
 
