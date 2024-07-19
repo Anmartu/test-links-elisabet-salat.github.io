@@ -16,7 +16,7 @@ This is the official website and portfolio for the Catalan artist Elisabet Salat
 This project doesn't need any installation.
 
 ## Hiring
-If you want to hire me you can contact me at anmartu@gmail.com for any consult.
+If you want to hire me you can contact me at andreu.martorell.ribera@gmail.com for any consult.
 
 ## Licence
 MIT Public Licence v3.0, it can't be used commercially.
